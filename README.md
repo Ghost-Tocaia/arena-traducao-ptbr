@@ -99,3 +99,5 @@ outro lugar antes de mexer em qualquer coisa.
 ## Créditos
 
 Tradução: **Ghost Tocaia**
+
+Repositório: [github.com/Ghost-Tocaia/arena-traducao-ptbr](https://github.com/Ghost-Tocaia/arena-traducao-ptbr)
