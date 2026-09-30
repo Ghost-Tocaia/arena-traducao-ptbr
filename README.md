@@ -19,18 +19,23 @@ Compatível com as duas formas de jogar o Arena hoje em dia:
 
 | | Versão OpenTESArena | Versão DOSBox (Steam clássica) |
 |---|---|---|
-| **Estimativa** | ~98-99% do texto do jogo | ~90-93% do texto do jogo |
+| **Estimativa** | ~98-99% do texto do jogo | ~55% do texto do jogo |
 
 A base do jogo é **idêntica** nas duas versões — menus, itens, diário
-de masmorra, criação de personagem, telas de interface, praticamente
-todo o executável do jogo. A diferença entre as duas vem de **um único
-arquivo**: o banco de falas dos cidadãos nas cidades (conversa de rua,
-rumores, "onde fica tal lugar?"). Esse arquivo específico não tolera
-nenhuma alteração quando roda no DOSBox de verdade — qualquer edição,
-por menor que seja, embaralha os diálogos do jogo. Por segurança,
-mantivemos esse arquivo em inglês só na versão DOSBox; na versão
-OpenTESArena ele está traduzido normalmente, já que o motor moderno não
-tem essa limitação.
+de masmorra, criação de personagem, telas de interface, feitiços,
+praticamente todo o executável do jogo, e todo o texto dos encontros
+em masmorra/templo/taverna (arquivos `.INF`). A diferença entre as
+duas vem de **um único arquivo**, o `TEMPLATE.DAT` (banco de falas dos
+cidadãos nas cidades — conversa de rua, rumores, "onde fica tal
+lugar?") — mas esse arquivo sozinho é **quase metade de todo o texto
+do jogo** (cerca de 396 KB dos ~877 KB de texto no total, medindo pelo
+tamanho real dos arquivos de texto do jogo), então deixá-lo em inglês
+pesa proporcionalmente muito mais do que o nome "um arquivo" sugere.
+Esse arquivo específico não tolera nenhuma alteração quando roda no
+DOSBox de verdade — qualquer edição, por menor que seja, embaralha os
+diálogos do jogo. Por segurança, mantivemos esse arquivo em inglês só
+na versão DOSBox; na versão OpenTESArena ele está traduzido
+normalmente, já que o motor moderno não tem essa limitação.
 
 O que fica de propósito em inglês nas duas versões: nomes próprios
 (dias da semana, nomes de província, nome do imperador) e dois campos
@@ -88,8 +93,9 @@ outro lugar antes de mexer em qualquer coisa.
 
 ## Problemas conhecidos
 
-- Diálogo de cidadão (conversa de rua nas cidades) continua em inglês
-  **só na versão DOSBox**, pelo motivo explicado acima.
+- Diálogo de cidadão (conversa de rua nas cidades, arquivo
+  `TEMPLATE.DAT`) continua em inglês **só na versão DOSBox**, pelo
+  motivo explicado acima — é a maior lacuna da tradução nessa versão.
 - Alguns nomes próprios (dias da semana, províncias, nome do
   imperador) continuam em inglês de propósito, seguindo a mesma
   convenção usada nos outros jogos traduzidos da série.
