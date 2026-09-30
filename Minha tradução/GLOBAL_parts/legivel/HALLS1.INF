@@ -1,0 +1,221 @@
+@FLOORS
+*BOXCAP 0
+*CEILING 135 346
+floora.set	#4
+*BOXCAP 1
+floorb.set	#2
+*BOXCAP 2
+floorc.set	#3
+*BOXCAP 3
+floord.set	#2
+
+@WALLS
+*DRYCHASM
+pit.img
+*WETCHASM
+water.img
+*LAVACHASM
+lava.img
+
+*DOOR 0
+door1.img
+*DOOR 0
+door2.img
+*DOOR 0
+door3.img
+*DOOR 0
+door4.img
+*DOOR 0
+door5.img
+*DOOR 0
+door6.img
+
+dwa01.set	#2
+dwb01.set	#2
+dwc01.set	#2
+
+*LEVELDOWN
+stairdwn.img
+*LEVELUP
+stairup.img
+
+*TRANS
+*DOOR 90
+mcell.img
+
+*BOXSIDE 0
+*DOOR 1
+dwd01.set	#2
+*BOXSIDE 1
+*DOOR 2
+dwe01.set	#2
+*BOXSIDE 2
+*DOOR 1
+dwf01.set	#2
+*BOXSIDE 3
+*DOOR 2
+dwg01.set	#2
+*BOXSIDE 4
+*DOOR 1
+dwh01.set	#2
+*BOXSIDE 5
+*DOOR 2
+dwi01.set	#2
+*BOXSIDE 6
+*DOOR 1
+dwj01.set	#2
+*BOXSIDE 7
+*DOOR 2
+dwk01.set	#2
+*BOXSIDE 8
+*DOOR 1
+dwl01.set	#2
+*BOXSIDE 9
+*DOOR 2
+dwm01.set	#2
+*BOXSIDE 10
+*DOOR 1
+dwn01.set	#2
+*BOXSIDE 11
+*DOOR 2
+dwo01.set	#2
+*BOXSIDE 12
+*DOOR 1
+dwp01.set	#2
+*BOXSIDE 14
+*DOOR 1
+dwr01.set	#2
+
+@FLATS
+brazier.dfa	S:5
+candle.dfa	S:3
+nbones1.img
+*ITEM 1
+key.img
+ncolumn1.img
+*ITEM 2
+deadbody.img
+*ITEM 3
+equipmen.img
+*ITEM 4
+treasre1.img
+*ITEM 5
+treasre2.img
+*ITEM 6
+treasre3.img
+coffin1.img	F:1
+roots1.img	Y:-50
+roots2.img	Y:-50
+roots3.img	Y:-50
+chains1.img	Y:-50
+chains2.img	Y:-50
+rubble.img
+*ITEM 7
+chestc.img
+*ITEM 8
+chesto.img
+nfount1d.dfa	F:1
+*ITEM 32
+rat.dfa
+*ITEM 33
+goblin.dfa
+*ITEM 34
+lizrdman.dfa
+*ITEM 35
+wolf.dfa
+*ITEM 36
+snowwolf.dfa
+*ITEM 37
+orc.dfa
+*ITEM 38
+skeleton.dfa
+*ITEM 39
+ogre.dfa
+*ITEM 40
+spider.dfa
+*ITEM 41
+ghoul.dfa
+*ITEM 42
+hellhoun.dfa
+*ITEM 43
+ghost.dfa
+*ITEM 44
+zombie.dfa
+*ITEM 45
+troll.dfa
+*ITEM 46
+wraith.dfa
+*ITEM 47
+beholder.dfa
+*ITEM 48
+icegolem.dfa
+*ITEM 49
+stonegol.dfa
+*ITEM 50
+irongole.dfa
+*ITEM 51
+firedaem.dfa
+*ITEM 52
+medusa.dfa
+*ITEM 53
+vampire.dfa
+*ITEM 54
+lich.dfa
+
+@SOUND
+arrowfr.voc 2
+bash.voc 27
+birds.voc 24
+bodyfall.voc 20
+clank.voc 4
+clicks.voc 29
+closdoor.voc 5
+dirtl.voc 0
+dirtr.voc 1
+drip1.voc 16
+drip2.voc 17
+drums.voc 18
+ehit.voc 10
+explode.voc 8
+grind.voc 14
+lock.voc 21
+opendoor.voc 6
+portc.voc 15
+scream1.voc 30
+slowball.voc 7
+splash.voc 23
+squish1.voc 28
+swimming.voc 22
+swish.voc 11
+uhit.voc 9
+wind.voc 19
+
+@TEXT
+*TEXT 0
+Há uma inscrição gravada aqui na
+pedra coberta de musgo - Theodorus.
+*TEXT 1
+~Você entra na passagem secreta para
+o Salão do Colosso. O chão aqui
+está coberto por um mofo fino,
+arranhado por garras grandes e afiadas, e
+o ar está quente e úmido.
+*TEXT 2
++67
+*TEXT 3
++71
+*TEXT 4
++68
+*TEXT 5
++70
+*TEXT 6
++65
+*TEXT 7
++62
+*TEXT 8
+Neste corpo você encontra um bilhete rabiscado às pressas.
+Fala sobre encontrar seis chaves para abrir o
+segredo dos Salões. Estas chaves, segundo um mapa tosco,
+parecem estar espalhadas por este nível. Um 'X'
+vermelho está rabiscado num ponto diretamente ao norte daqui.
+

@@ -1,0 +1,220 @@
+@FLOORS
+*BOXCAP 0
+mfloora.set	#2
+*BOXCAP 1
+mfloorb.img
+*BOXCAP 2
+mfloord.set	#2
+floor_c0.img
+*CEILING 130 332
+floor_c1.img
+
+@WALLS
+*DOOR 0
+mdoor1.img
+*DOOR 0
+mdoor2.img
+*DOOR 0
+mdoor3.img
+*DOOR 0
+mdoor4.img
+*DOOR 0
+mdoor5.img
+*DOOR 0
+mdoor6.img
+
+*LEVELDOWN
+msd.img
+*LEVELUP
+msu.img
+
+*TRANS
+*DOOR 0
+mcell.img
+
+*BOXCAP 3
+*BOXSIDE 0
+*DOOR 2
+minea.set	#4
+*BOXCAP 4
+*BOXSIDE 1
+*DOOR 2
+mineb.set	#4
+*BOXCAP 5
+*BOXSIDE 2
+*DOOR 1
+minec.set	#4
+*BOXCAP 6
+*BOXSIDE 3
+*DOOR 2
+mined.set	#4
+*BOXCAP 7
+*BOXSIDE 4
+*DOOR 2
+minee.set	#3
+*BOXCAP 8
+*BOXSIDE 5
+*DOOR 1
+mineb1.set	#4
+
+*TRANSWALKTHRU
+brace.img
+
+*BOXSIDE 9
+*LAVACHASM
+mlava.img
+*BOXSIDE 10
+*WETCHASM
+mwater.img
+*BOXSIDE 11
+*DRYCHASM
+pit.img
+
+@FLATS NOSHOW
+bagage1.img     F:1
+brazier.dfa     S:3
+candle.dfa      S:2
+nbones1.img
+flag.img
+*ITEM 1
+key.img
+ncolumn1.img    F:1
+*ITEM 2
+deadbody.img
+*ITEM 3
+equipmen.img
+*ITEM 4
+treasre1.img
+*ITEM 5
+treasre2.img
+*ITEM 6
+treasre3.img
+daltar1.dfa     F:1
+coffin1.img     F:1
+coffin2.img     F:1
+roots1.img
+roots2.img
+roots3.img
+chains1.img
+chains2.img
+*ITEM 7
+chestc.img
+*ITEM 8
+chesto.img
+barrel.img
+firepit1.dfa    S:3
+naltar1.img
+nfount1d.dfa
+*ITEM 32
+rat.dfa
+*ITEM 34
+lizrdman.dfa
+*ITEM 35
+wolf.dfa
+*ITEM 37
+orc.dfa
+*ITEM 38
+skeleton.dfa
+*ITEM 40
+spider.dfa
+*ITEM 42
+hellhoun.dfa
+*ITEM 43
+ghost.dfa
+*ITEM 44
+zombie.dfa
+*ITEM 46
+wraith.dfa
+*ITEM 47
+beholder.dfa
+*ITEM 49
+stonegol.dfa
+*ITEM 50
+irongole.dfa
+*ITEM 51
+firedaem.dfa
+*ITEM 52
+medusa.dfa
+*ITEM 55
+Mage
+*ITEM 58
+Sorceror
+*ITEM 66
+Assassin
+*ITEM 68
+Archer
+*ITEM 70
+Barbaria
+*ITEM 71
+Warrior
+*ITEM 72
+Knight
+
+
+@SOUND
+arrowfr.voc 2
+bash.voc 27
+birds.voc 24
+bodyfall.voc 20
+clank.voc 4
+clicks.voc 25
+closdoor.voc 5
+deepchoi.voc 28
+dirtl.voc 0
+dirtr.voc 1
+drip1.voc 16
+drip2.voc 17
+drums.voc 18
+ehit.voc 10
+explode.voc 8
+grind.voc 14
+lock.voc 21
+opendoor.voc 6
+portc.voc 15
+scream1.voc 29
+scream2.voc 30
+slowball.voc 7
+splash.voc 23
+swimming.voc 22
+swish.voc 11
+uhit.voc 9
+wind.voc 19
+
+@TEXT
+*TEXT 0
+~O ar sulfuroso das Minas de Khuras te
+atinge como uma parede de calor, trazendo lágrimas
+aos seus olhos. Através do ar cintilante
+você pode ver vários fluxos e poços de
+lava espalhados pelo chão chamuscado, traiçoeiro e mortal...
+*TEXT 1
+~Você supõe que este corpo seja de
+um aventureiro azarado. A carne parece rasgada,
+e talvez mastigada. Rabiscadas em sangue no
+chão ao lado estão as letras, 'SW'...
+*TEXT 2
+Marcas e arranhões na rocha aqui parecem indicar
+que algo grande passou por aqui há pouco tempo...
+*TEXT 3
+~Você vê um poço que leva para outro nível...
+*TEXT 4
+Parece que os rumores de um tesouro Anão
+eram precisos. As pilhas de ouro e itens
+neste aposento brilham à luz trêmula das tochas...
+*TEXT 5
+Ao seu redor há poças de lava fervilhante,
+brotando de bem lá embaixo e liberando seus
+gases no ar, que parece contaminado mas respirável...
+*TEXT 6
+Rabiscada na parede aqui há uma mensagem curta,
+-
+'Cuidado com o Imperador. Seus lacaios me aguardam.
+-
+Uma mensagem estranha de se encontrar nestas profundezas...
+*TEXT 7
+Rabiscada na parede aqui há uma mensagem estranha,
+-
+O segredo do Cajado é meu. Os perversos irã-
+-
+A escrita termina abruptamente, como se
+quem escreveu tivesse sido interrompido de repente...

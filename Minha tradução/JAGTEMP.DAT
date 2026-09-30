@@ -1,0 +1,98 @@
+
+A SEÇÃO A SEGUIR SÓ É VÁLIDA SE O PC TIVER A PRIMEIRA PEÇA DO
+CAJADO DO CAOS...
+
+Esta seção é para Foroozan:
+
+Há uma chance base de 20% de que, após a recuperação da primeira peça do
+cajado, o encontro aleatório sorteado seja, na verdade, um encontro com
+criaturas de Jagar Tharn. Para cada peça adicional do Cajado no inventário
+do PC, a chance aumenta em 5% (ou seja, se o PC tiver três peças do Cajado,
+a chance é de 30%).
+Se o encontro aleatório for de fato um encontro com criaturas de Jagar
+Tharn, você deve rodar uma animação e inserir o texto descrito nos
+parágrafos a seguir na área de caixa de texto inferior. Após o término da
+animação, faça um fade out e então execute o encontro.
+Se o encontro aleatório for um encontro com criaturas de Jagar Tharn, faça
+todos os cálculos normalmente como faria em um encontro aleatório comum,
+exceto que deve somar o número de peças do Cajado em posse do PC ao nível
+do PC ao determinar os inimigos. Isso adicionará de 1 a 8 níveis ao nível
+do PC ao sortear o encontro, dependendo de quantas peças ele ou ela possui
+no momento.
+Uma vez que o PC tenha um encontro com criaturas de Jagar Tharn, ele ou
+ela não terá outro até recuperar mais uma peça do Cajado. Além disso, se
+o PC não conseguir um enquanto vagueia pelo mapa, devemos forçar um caso
+o PC clique no local lendário da próxima peça do Cajado no mapa
+continental.
+
+Exemplo:
+Meu personagem tem três (3) peças do Cajado, e se defendeu com sucesso em
+duas ocasiões, pouco depois de conseguir as 2 primeiras peças. Ele agora
+está viajando em busca da quarta peça. Toda vez que sorteamos um encontro
+aleatório, verificamos se Jagar Tharn percebe o PC. A chance é de 30%.
+Se sortearmos abaixo de 30 em 1 - 100, então somamos 3 ao nível do PC e
+sorteamos um encontro aleatório. Em seguida, rodamos a animação e o texto,
+depois voltamos ao mundo real com um fade e executamos o encontro
+sorteado.
+Devemos, porém, executar um encontro antes que o PC consiga a quarta
+peça. Se, quando o PC descobrir no mapa continental onde está a quarta
+peça do Cajado (Halls of Colossus), ainda não tivermos sorteado um
+encontro com criaturas de Jagar Tharn, então quando o PC clicar em Halls
+of Colossus para iniciar sua jornada até a quarta peça, devemos forçar um
+encontro pelo caminho.
+
+
+PC tem a 1ª peça do Cajado em posse:
+Não sei quem você é, mas cometeu um erro fatal. Enviei meus lacaios,
+dignos da atenção que você merece, para aliviá-lo do fardo da peça do
+Cajado que agora carrega. Entregue-a a eles e ordenarei que sua morte seja
+indolor e rápida. Resista, e verá tamanho sofrimento que implorará pela
+doce libertação da morte...&
+
+PC tem a 2ª peça do Cajado em posse:
+Você sobreviveu ao Labyrinthian, um lugar dos mais terríveis. Continue por
+este caminho, porém, e enfrentará coisas capazes de congelar seu próprio
+coração. Vou lhe poupar da provação, pois meus servos se aproximam agora
+mesmo. De seu corpo dilacerado, tomarei o que é meu...&
+
+PC tem a 3ª peça do Cajado em posse:
+Por que você escolhe se opor a mim quando é óbvio que o destruirei. Mesmo
+enquanto cada peça do Cajado entra em sua posse, torna-se mais fácil
+encontrá-lo, e é exatamente isso que fiz. Enfrente minhas criaturas, se
+ousar. Já cansei de brincar com você...&
+
+PC tem a 4ª peça do Cajado em posse:
+É óbvio, quem quer que você seja, que é um inimigo astuto e à altura. Não
+insultarei sua inteligência com mais digressões. Meus lacaios logo se
+aproximam, mas não o entregarei à porta sombria da Morte.
+Você provou seu valor. Uma vez morto, o ressuscitarei para lutar por mim,
+como um de meus servos. Renda-se a mim agora e lhe ofereço vida eterna...&
+
+PC tem a 5ª peça do Cajado em posse:
+Eu o subestimei, isso é claro. Você não apenas derrotou as criaturas
+inúteis que enviei contra você, mas conseguiu sobreviver à Crystal Tower,
+um feito que por si só poderia ser lenda. É triste que eu seja forçado a
+destruí-lo. Prepare-se, pois meus lacaios chegam...&
+
+PC tem a 6ª peça do Cajado em posse:
+Você rejeitou minha oferta de vida eterna, e derrotou a Crypt of Hearts.
+Sua lista de feitos cresce. Você não conseguirá, porém, completar a forja
+do Cajado. Minhas forças são inesgotáveis, e você sucumbirá. Prepare-se,
+pois meus servos chegam...&
+
+PC tem a 7ª peça do Cajado em posse:
+Você me surpreende com sua tenacidade. De nada adianta escapar das minhas
+armadilhas, pois este jogo chega ao fim. A peça final do Cajado está em
+Dagoth-Ur, na província de Morrowind. A informação é inútil para você,
+pois ninguém conhece a entrada do vulcão, e mesmo que sobreviva às
+criaturas que enviei contra você agora, não sobreviverá às suas
+profundezas. Despeço-me de você, %pcf. Você foi um adversário mais que
+digno...&
+
+PC tem a 8ª peça do Cajado em posse:
+Parabenizo-o pelo seu sucesso. Descobriu, porém, o que eu já sabia o
+tempo todo? O Cajado está drenado de todo potencial mágico. Fiz isso eu
+mesmo antes de espalhar as peças pelo reino. É um bastão inútil, bom para
+bater manteiga ou remar um barco, mas não para salvar o Imperador. Venha
+me encontrar se ousar, e o aliviarei de qualquer fardo adicional que
+pense em enfrentar. Minhas legiões aguardam...&

@@ -1,0 +1,229 @@
+@FLOORS
+*BOXCAP 0
+*CEILING 225 512
+floora.set	#4
+*BOXCAP 1
+floorb.set	#2
+*BOXCAP 2
+floorc.set	#3
+*BOXCAP 3
+floord.set	#2
+
+@WALLS
+*DRYCHASM
+pit.img
+*WETCHASM
+water.img
+*LAVACHASM
+lava.img
+
+*DOOR 0
+door1.img
+*DOOR 0
+door2.img
+*DOOR 0
+door3.img
+*DOOR 0
+door4.img
+*DOOR 0
+door5.img
+*DOOR 0
+door6.img
+
+dwa01.set	#2
+dwb01.set	#2
+dwc01.set	#2
+
+*LEVELDOWN
+stairdwn.img
+*LEVELUP
+stairup.img
+
+*TRANS
+*DOOR 90
+mcell.img
+
+*BOXSIDE 0
+*DOOR 1
+dwd01.set	#2
+*BOXSIDE 1
+*DOOR 2
+dwe01.set	#2
+*BOXSIDE 2
+*DOOR 1
+dwf01.set	#2
+*BOXSIDE 3
+*DOOR 2
+dwg01.set	#2
+*BOXSIDE 4
+*DOOR 1
+dwh01.set	#2
+*BOXSIDE 5
+*DOOR 2
+dwi01.set	#2
+*BOXSIDE 6
+*DOOR 1
+dwj01.set	#2
+*BOXSIDE 7
+*DOOR 2
+dwk01.set	#2
+*BOXSIDE 8
+*DOOR 1
+dwl01.set	#2
+*BOXSIDE 9
+*DOOR 2
+dwm01.set	#2
+*BOXSIDE 10
+*DOOR 1
+dwn01.set	#2
+*BOXSIDE 11
+*DOOR 2
+dwo01.set	#2
+*BOXSIDE 12
+*DOOR 1
+dwp01.set	#2
+*BOXSIDE 13
+*DOOR 2
+dwq01.set	#2
+
+@FLATS
+brazier.dfa	S:5
+candle.dfa	S:3
+nbones1.img
+*ITEM 1
+key.img
+ncolumn1.img	F:1
+*ITEM 2
+deadbody.img
+*ITEM 3
+equipmen.img
+*ITEM 4
+treasre1.img
+*ITEM 5
+treasre2.img
+*ITEM 6
+treasre3.img
+daltar1.dfa	F:1
+imaiden.img	F:1
+coffin1.img	F:1
+coffin2.img	F:1
+roots1.img	Y:-75
+roots2.img	Y:-75
+roots3.img	Y:-75
+chains1.img	Y:-75
+chains2.img	Y:-75
+rubble.img
+*ITEM 7
+chestc.img
+*ITEM 8
+chesto.img
+*ITEM 32
+rat.dfa
+*ITEM 33
+goblin.dfa
+*ITEM 34
+lizrdman.dfa
+*ITEM 35
+wolf.dfa
+*ITEM 36
+snowwolf.dfa
+*ITEM 37
+orc.dfa
+*ITEM 38
+skeleton.dfa
+*ITEM 39
+ogre.dfa
+*ITEM 40
+spider.dfa
+*ITEM 41
+ghoul.dfa
+*ITEM 42
+hellhoun.dfa
+*ITEM 43
+ghost.dfa
+*ITEM 44
+zombie.dfa
+*ITEM 45
+troll.dfa
+*ITEM 46
+wraith.dfa
+*ITEM 47
+beholder.dfa
+*ITEM 48
+icegolem.dfa
+*ITEM 49
+stonegol.dfa
+*ITEM 50
+irongole.dfa
+*ITEM 51
+firedaem.dfa
+*ITEM 52
+medusa.dfa
+*ITEM 53
+vampire.dfa
+*ITEM 54
+lich.dfa
+*ITEM 13
+chaos3.dfa	Y:-50
+
+@SOUND
+arrowfr.voc 2
+bash.voc 27
+bodyfall.voc 20
+clank.voc 4
+clicks.voc 25
+closdoor.voc 5
+deepchoi.voc 28
+dirtl.voc 0
+dirtr.voc 1
+drums.voc 18
+ehit.voc 10
+explode.voc 8
+grind.voc 14
+hichoir.voc 29
+lock.voc 21
+opendoor.voc 6
+portc.voc 15
+slowball.voc 7
+splash.voc 23
+swimming.voc 22
+swish.voc 11
+uhit.voc 9
+wind.voc 19
+
+@TEXT
+*TEXT 0
+^254 0
+Para escapar, um enigma deves responder...
+-
+Está no início do Ocaso, e
+no fim de cada eco; está
+no início de todo obstáculo,
+e no fim de todo perigo...
+-
+O que sou?
+-
+:o
+:letra o
+:a letra o
+:letra "o"
+`CORRECT
+És verdadeiramente digno. Vai em
+paz, e que teu destino
+seja escrito nos Elder Scrolls...
+`WRONG
+Errado, mortal. Dagoth-Ur vai gostar
+de tua companhia, pelos milênios...
+-
+Você percebe com desespero que a
+única saída é responder a pergunta corretamente...
+*TEXT 1
+Uma rajada de calor te atinge ao ficar de pé
+no portal para um grande lago de fogo. Ao seu
+redor fogos ocasionais irrompem, e depois se apagam. No centro
+do lago você mal consegue distinguir algum tipo de estrutura...
+*TEXT 2
+~Ao entrar neste nível uma onda de ar sulfuroso te atinge.
+Um som estrondoso pode ser ouvido, como se uma grande conflagração estivesse
+à frente. O ar ao seu redor cintila com o calor...
+

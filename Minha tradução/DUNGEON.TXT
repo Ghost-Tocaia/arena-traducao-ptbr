@@ -1,0 +1,50 @@
+Halls of Colossus
+Você está diante das gigantescas muralhas dos Salões do Colosso, 
+construídas por gigantes numa era há muito esquecida. O vento ecoa 
+tristemente pelas ameias vazias. Aqui repousa a quarta peça do Cajado do 
+Caos...
+#
+Crypt of Hearts
+O frio da morte parece tocar seu coração ao contemplar as paredes de pedra 
+da Cripta dos Corações. Acima da entrada ergue-se uma caveira sorridente, 
+um aviso para quem ousar atravessar os salões dos mortos. Você consegue 
+sentir a sexta peça do Cajado do Caos, em algum lugar abaixo...
+#
+Crystal Tower
+A Torre de Cristal domina a área, erguendo-se como um dedo acusador 
+apontado ao céu acima. Este bastião de feitiçaria parece transcender as 
+concepções humanas comuns, existindo em muitos outros planos além deste. 
+Você consegue sentir a quinta peça do Cajado do Caos, em algum lugar 
+acima...
+#
+Dagoth-Ur
+A sagrada entrada dos ferreiros Anões para a montanha de fogo, Dagoth-Ur, 
+ergue-se diante de você. Runas mágicas brilham na luz vermelha do fogo, 
+reluzindo de calor. Jatos sulfurosos de vapor escapam de fendas na face 
+rochosa da abertura. A peça final do Cajado do Caos o chama...
+#
+Elden Grove
+A pequena entrada coberta de vegetação para o Bosque de Elden se ergue 
+diante de você, guardando segredos esquecidos há eras. Em algum lugar 
+dentro de seus corredores enevoados repousa a terceira peça do Cajado do 
+Caos...
+#
+Fang Lair
+Você está diante do portão-dragão de Fang Lair, humilde diante de sua 
+majestade. O Domínio Anão parece abandonado há muito tempo, suas paredes 
+de pedra rachando com a idade e o abandono. Em algum lugar de suas 
+profundezas úmidas repousa a primeira peça do Cajado do Caos...
+#
+Labyrinthian
+Grama e raízes teimosas resistem ao rígido clima ártico, recusando-se a 
+ceder. À sua frente ergue-se a entrada para o Labyrinthian, terreno de 
+provas do Arquimago Shalidor. Dentro de seus caminhos tortuosos repousa a 
+segunda peça do Cajado do Caos...
+#
+Murkwood
+As névoas de Murkwood, a Floresta Negra, rodopiam ao redor. Dentro da 
+floresta escura podem ser ouvidos fracos gritos de desespero, almas que 
+perderam seu caminho dentro de sua astuta teia. Embora o cheiro de 
+decomposição flua de cada árvore e pedra, dentro desta floresta repousa a 
+sétima peça do Cajado do Caos...
+#

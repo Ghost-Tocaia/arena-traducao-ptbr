@@ -1,0 +1,242 @@
+@FLOORS
+*BOXCAP 0
+floora1.img
+*BOXCAP 1
+floorb1.img
+*BOXCAP 2
+floorc1.img
+*BOXCAP 3
+floord1.img
+*BOXCAP 4
+floore1.img
+*BOXCAP 5
+*CEILING 130 332
+floorf1.img
+
+@WALLS
+*DOOR 0
+idoor1.img
+*DOOR 0
+idoor2.img
+*DOOR 0
+idoor3.img
+*DOOR 0
+idoor4.img
+*DOOR 0
+idoor5.img
+*DOOR 0
+idoor6.img
+
+*LEVELDOWN
+isd.img
+*LEVELUP
+isu.img
+
+*TRANS
+*DOOR 0
+mcell.img
+
+*BOXCAP 6
+*BOXSIDE 0
+*DOOR 2
+icea.set	#2
+*BOXCAP 7
+*BOXSIDE 1
+*DOOR 2
+iceb.set	#2
+*BOXCAP 8
+*BOXSIDE 2
+*DOOR 2
+icec.set	#3
+*BOXCAP 9
+*BOXSIDE 3
+*DOOR 2
+iced.set	#3
+*BOXCAP 10
+*BOXSIDE 4
+*DOOR 1
+icee.set	#3
+*BOXCAP 11
+*BOXSIDE 5
+*DOOR 1
+icef.set	#3
+*BOXCAP 12
+*BOXSIDE 6
+*DOOR 2
+iceg.set	#3
+*BOXCAP 13
+*BOXSIDE 7
+*DOOR 2
+iceh.set	#2
+*BOXCAP 14
+*BOXSIDE 8
+*DOOR 1
+icei.set	#4
+*BOXCAP 15
+*BOXSIDE 9
+*DOOR 2
+icej.set	#3
+*BOXSIDE 10
+*DOOR 2
+icek.set	#4
+*BOXSIDE 11
+*DOOR 1
+icel.set	#4
+*BOXSIDE 12
+*DOOR 2
+icem.set	#4
+*BOXSIDE 13
+*DOOR 2
+icen.set	#2
+
+*WETCHASM
+*BOXSIDE 14
+iwater.img
+*BOXSIDE 15
+*DRYCHASM
+ipit.img
+
+@FLATS NOSHOW
+sbagage1.img	F:1
+brazier.dfa	S:3
+candle.dfa	S:1
+sbones1.img
+flag.img
+*ITEM 1
+key.img
+ncolumn1.img	F:1
+*ITEM 2
+deadbody.img
+*ITEM 3
+equipmen.img
+*ITEM 4
+treasre1.img
+*ITEM 5
+treasre2.img
+*ITEM 6
+treasre3.img
+daltar1.dfa	F:1
+imaiden.img	F:1
+coffin1.img	F:1
+coffin2.img	F:1
+roots1.img
+roots2.img
+roots3.img
+chains1.img
+chains2.img
+rubble.img
+*ITEM 7
+chestc.img
+*ITEM 8
+chesto.img
+torchpst.dfa	S:4
+saltar1.img
+sbarrel.img
+sbouldr1.img
+sbouldr2.img
+sbouldr3.img
+sbouldr4.img
+scolumn2.img
+scolumn3.img
+scolumn4.img
+scolumn5.img
+scolumn6.img
+sfounf1m.img
+sfounf1t.img
+sgrave1.img
+sgrave2.img
+sgrave3.img
+spost11.img
+wstatue1.dfa
+wstatue2.dfa
+*ITEM 32
+rat.dfa
+*ITEM 33
+goblin.dfa
+*ITEM 34
+lizrdman.dfa
+*ITEM 35
+wolf.dfa
+*ITEM 36
+snowwolf.dfa
+*ITEM 37
+orc.dfa
+*ITEM 38
+skeleton.dfa
+*ITEM 39
+ogre.dfa
+*ITEM 40
+spider.dfa
+*ITEM 41
+ghoul.dfa
+*ITEM 42
+hellhoun.dfa
+*ITEM 43
+ghost.dfa
+*ITEM 44
+zombie.dfa
+*ITEM 45
+troll.dfa
+*ITEM 46
+wraith.dfa
+*ITEM 47
+beholder.dfa
+*ITEM 48
+icegolem.dfa
+*ITEM 49
+stonegol.dfa
+*ITEM 50
+irongole.dfa
+*ITEM 51
+firedaem.dfa
+*ITEM 52
+medusa.dfa
+*ITEM 53
+vampire.dfa
+*ITEM 54
+lich.dfa
+
+@SOUND
+arrowfr.voc 2
+bash.voc 27
+bodyfall.voc 20
+clank.voc 4
+clicks.voc 25
+closdoor.voc 5
+deepchoi.voc 28
+drip1.voc 16
+drip2.voc 17
+drums.voc 18
+eerie.voc 30
+ehit.voc 10
+explode.voc 8
+grind.voc 14
+hichoir.voc 29
+humeerie.voc 31
+lock.voc 21
+opendoor.voc 6
+portc.voc 15
+slowball.voc 7
+snowl.voc 0
+snowr.voc 1
+splash.voc 23
+swimming.voc 22
+swish.voc 11
+uhit.voc 9
+wind.voc 19
+
+
+@TEXT
+*TEXT 0
++10
+*TEXT 1
++15
+*TEXT 2
++20
+*TEXT 3
+Todos que entram aqui,
+abandonem a esperança...
+*TEXT 4
+~Você entra nos salões da Torre de
+Cristal, recebido por sons e visões estranhas...
+

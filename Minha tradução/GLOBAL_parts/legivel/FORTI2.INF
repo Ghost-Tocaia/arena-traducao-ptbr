@@ -1,0 +1,308 @@
+@FLOORS
+*CEILING 150 384
+*BOXCAP 0
+floora1.img
+*BOXCAP 1
+floorb1.img
+*BOXCAP 2
+floorc1.img
+*BOXCAP 3
+floord1.img
+*BOXCAP 4
+floore1.img
+*BOXCAP 5
+floorf1.img
+
+@WALLS
+*DOOR 0
+idoor1.img
+*DOOR 0
+idoor2.img
+*DOOR 0
+idoor3.img
+*DOOR 0
+idoor4.img
+*DOOR 0
+idoor5.img
+*DOOR 0
+idoor6.img
+
+*LEVELDOWN
+isd.img
+*LEVELUP
+isu.img
+
+*TRANS
+*DOOR 0
+mcell.img
+
+*BOXCAP 6
+*BOXSIDE 0
+*DOOR 2
+icea.set	#2
+*BOXCAP 7
+*BOXSIDE 1
+*DOOR 2
+iceb.set	#2
+*BOXCAP 8
+*BOXSIDE 2
+*DOOR 2
+icec.set	#3
+*BOXCAP 9
+*BOXSIDE 3
+*DOOR 2
+iced.set	#3
+*BOXCAP 10
+*BOXSIDE 4
+*DOOR 1
+icee.set	#3
+*BOXCAP 11
+*BOXSIDE 5
+*DOOR 1
+icef.set	#3
+*BOXCAP 12
+*BOXSIDE 6
+*DOOR 2
+iceg.set	#3
+*BOXCAP 13
+*BOXSIDE 7
+*DOOR 2
+iceh.set	#2
+*BOXCAP 14
+*BOXSIDE 8
+*DOOR 1
+icei.set	#4
+*BOXCAP 15
+*BOXSIDE 9
+*DOOR 2
+icej.set	#3
+*BOXSIDE 10
+*DOOR 2
+icek.set	#4
+*BOXSIDE 11
+*DOOR 1
+icel.set	#4
+*BOXSIDE 12
+*DOOR 2
+icem.set	#4
+*BOXSIDE 13
+*DOOR 2
+icen.set	#2
+
+*WETCHASM
+*BOXSIDE 14
+iwater.img
+*BOXSIDE 15
+*DRYCHASM
+ipit.img
+
+@FLATS NOSHOW
+sbagage1.img    F:1
+brazier.dfa     S:4
+candle.dfa      S:2
+sbones1.img
+flag.img
+*ITEM 1
+key.img
+ncolumn1.img    F:1
+*ITEM 2
+deadbody.img
+*ITEM 3
+equipmen.img
+*ITEM 4
+treasre1.img
+*ITEM 5
+treasre2.img
+*ITEM 6
+treasre3.img
+daltar1.dfa     F:1
+imaiden.img     F:1
+coffin1.img     F:1
+coffin2.img     F:1
+roots1.img
+roots2.img
+roots3.img
+chains1.img
+chains2.img
+rubble.img
+chestc.img
+chesto.img
+torchpst.dfa    F:1
+saltar1.img     F:1
+sbarrel.img     F:1
+sbouldr1.img    F:1
+sbouldr2.img    F:1
+sbouldr3.img    F:1
+sbouldr4.img    F:1
+scolumn2.img    F:1
+scolumn3.img    F:1
+scolumn4.img    F:1
+scolumn5.img    F:1
+scolumn6.img    F:1
+sfounf1m.img    F:1
+sfounf1t.img    F:1
+sgrave1.img
+sgrave2.img
+sgrave3.img
+spost11.img
+wstatue1.dfa    F:1
+wstatue2.dfa    F:1
+*ITEM 7
+chestc.img
+*ITEM 8
+chesto.img
+*ITEM 32
+rat.dfa
+*ITEM 33
+goblin.dfa
+*ITEM 34
+lizrdman.dfa
+*ITEM 35
+wolf.dfa
+*ITEM 36
+snowwolf.dfa
+*ITEM 37
+orc.dfa
+*ITEM 38
+skeleton.dfa
+*ITEM 39
+ogre.dfa
+*ITEM 40
+spider.dfa
+*ITEM 41
+ghoul.dfa
+*ITEM 42
+hellhoun.dfa
+*ITEM 43
+ghost.dfa
+*ITEM 44
+zombie.dfa
+*ITEM 45
+troll.dfa
+*ITEM 46
+wraith.dfa
+*ITEM 47
+beholder.dfa
+*ITEM 48
+icegolem.dfa
+*ITEM 49
+stonegol.dfa
+*ITEM 50
+irongole.dfa
+*ITEM 51
+firedaem.dfa
+*ITEM 52
+medusa.dfa
+*ITEM 53
+vampire.dfa
+*ITEM 54
+lich.dfa
+*ITEM 55
+Mage
+*ITEM 56
+Spellswd
+*ITEM 57
+Battlemg
+*ITEM 58
+Sorceror
+*ITEM 59
+Healer
+*ITEM 60
+Nightbld
+*ITEM 61
+Bard
+*ITEM 62
+Burglar
+*ITEM 63
+Rogue
+*ITEM 64
+Acrobat
+*ITEM 65
+Thief
+*ITEM 66
+Assassin
+*ITEM 67
+Monk
+*ITEM 68
+Archer
+*ITEM 69
+Ranger
+*ITEM 70
+Barbaria
+*ITEM 71
+Warrior
+*ITEM 72
+Knight
+*ITEM 73
+JTHARN
+*ITEM 83
+SHALIMAN
+*ITEM 84
+SHALIDOR
+*ITEM 85
+SELENE
+*ITEM 86
+GALANDIR
+*ITEM 87
+ZARAPHUS
+*ITEM 88
+GHAREN
+*ITEM 89
+BALERION
+*ITEM 90
+HOLIFANE
+*ITEM 91
+MYTHRAS
+*ITEM 92
+PERION
+*ITEM 93
+RAEVAN
+*ITEM 94
+TARIA
+*ITEM 95
+UNDERKNG
+*ITEM 13
+TABLET.IMG
+
+@SOUND
+arrowfr.voc 2
+bash.voc 27
+birds.voc 24
+bodyfall.voc 20
+clank.voc 4
+clicks.voc 25
+closdoor.voc 5
+dirtl.voc 0
+dirtr.voc 1
+drip1.voc 16
+drip2.voc 17
+drums.voc 18
+ehit.voc 10
+explode.voc 8
+grind.voc 14
+lock.voc 21
+opendoor.voc 6
+portc.voc 15
+slowball.voc 7
+splash.voc 23
+swimming.voc 22
+swish.voc 11
+uhit.voc 9
+wind.voc 19
+
+@TEXT
+*TEXT 0
+^255 0
+Toco teu rosto, estou
+em tuas palavras, sou
+a falta de espaço,
+e amado pelos pássaros...
+O que sou eu?
+:ar
+:vento
+:o ar
+:o vento
+`CORRECT
+A porta à tua frente se abre...
+`WRONG
+Nada acontece.

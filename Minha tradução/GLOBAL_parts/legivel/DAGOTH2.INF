@@ -1,0 +1,240 @@
+*BOXCAP 0
+*CEILING 150 384
+floora.set	#4
+*BOXCAP 1
+floorb.set	#2
+*BOXCAP 2
+floorc.set	#3
+*BOXCAP 3
+floord.set	#2
+
+@WALLS
+*DRYCHASM
+pit.img
+*WETCHASM
+water.img
+*LAVACHASM
+lava.img
+
+*DOOR 0
+door1.img
+*DOOR 0
+door2.img
+*DOOR 0
+door3.img
+*DOOR 0
+door4.img
+*DOOR 0
+door5.img
+*DOOR 0
+door6.img
+
+dwa01.set	#2
+dwb01.set	#2
+dwc01.set	#2
+
+*LEVELDOWN
+stairdwn.img
+*LEVELUP
+stairup.img
+
+*TRANS
+*DOOR 90
+mcell.img
+
+*BOXSIDE 0
+*DOOR 1
+dwd01.set	#2
+*BOXSIDE 1
+*DOOR 2
+dwe01.set	#2
+*BOXSIDE 2
+*DOOR 1
+dwf01.set	#2
+*BOXSIDE 3
+*DOOR 2
+dwg01.set	#2
+*BOXSIDE 4
+*DOOR 1
+dwh01.set	#2
+*BOXSIDE 5
+*DOOR 2
+dwi01.set	#2
+*BOXSIDE 6
+*DOOR 1
+dwj01.set	#2
+*BOXSIDE 7
+*DOOR 2
+dwk01.set	#2
+*BOXSIDE 8
+*DOOR 1
+dwl01.set	#2
+*BOXSIDE 9
+*DOOR 2
+dwm01.set	#2
+*BOXSIDE 10
+*DOOR 1
+dwn01.set	#2
+*BOXSIDE 11
+*DOOR 2
+dwo01.set	#2
+*BOXSIDE 12
+*DOOR 1
+dwp01.set	#2
+*BOXSIDE 13
+*DOOR 2
+dwq01.set	#2
+
+@FLATS
+brazier.dfa	S:5
+candle.dfa	S:3
+nbones1.img
+*ITEM 1
+key.img
+ncolumn1.img	F:1
+*ITEM 2
+deadbody.img
+*ITEM 3
+equipmen.img
+*ITEM 4
+treasre1.img
+*ITEM 5
+treasre2.img
+*ITEM 6
+treasre3.img
+daltar1.dfa	F:1
+imaiden.img	F:1
+coffin1.img	F:1
+coffin2.img	F:1
+roots1.img	Y:-75
+roots2.img	Y:-75
+roots3.img	Y:-75
+chains1.img	Y:-75
+chains2.img	Y:-75
+rubble.img
+*ITEM 7
+chestc.img
+*ITEM 8
+chesto.img
+*ITEM 32
+rat.dfa
+*ITEM 33
+goblin.dfa
+*ITEM 34
+lizrdman.dfa
+*ITEM 35
+wolf.dfa
+*ITEM 36
+snowwolf.dfa
+*ITEM 37
+orc.dfa
+*ITEM 38
+skeleton.dfa
+*ITEM 39
+ogre.dfa
+*ITEM 40
+spider.dfa
+*ITEM 41
+ghoul.dfa
+*ITEM 42
+hellhoun.dfa
+*ITEM 43
+ghost.dfa
+*ITEM 44
+zombie.dfa
+*ITEM 45
+troll.dfa
+*ITEM 46
+wraith.dfa
+*ITEM 47
+beholder.dfa
+*ITEM 48
+icegolem.dfa
+*ITEM 49
+stonegol.dfa
+*ITEM 50
+irongole.dfa
+*ITEM 51
+firedaem.dfa
+*ITEM 52
+medusa.dfa
+*ITEM 53
+vampire.dfa
+*ITEM 54
+lich.dfa
+
+@SOUND
+arrowfr.voc 2
+bash.voc 27
+bodyfall.voc 20
+clank.voc 4
+clicks.voc 25
+closdoor.voc 5
+deepchoi.voc 29
+dirtl.voc 0
+dirtr.voc 1
+drip1.voc 16
+drip2.voc 17
+drums.voc 18
+ehit.voc 10
+explode.voc 8
+grind.voc 14
+humeerie.voc 28
+lock.voc 21
+opendoor.voc 6
+portc.voc 15
+slowball.voc 7
+splash.voc 23
+swimming.voc 22
+swish.voc 11
+uhit.voc 9
+wind.voc 19
+
+@TEXT
+*TEXT 0
++10
+*TEXT 1
++11
+*TEXT 2
++12
+*TEXT 3
++19
+*TEXT 4
++20
+*TEXT 5
+Para passar pelo primeiro portal, deves
+encontrar a Chave de Rubi...
+*TEXT 6
+Para passar pelo segundo portal, deves
+encontrar a Chave de Safira...
+*TEXT 7
+Para passar pelo terceiro portal, deves
+encontrar a Chave de Cristal...
+*TEXT 8
+Para passar pelo quarto portal, deves
+encontrar a Chave de Ametista...
+*TEXT 9
+Para passar pelo portal final, deves
+encontrar a Chave de Diamante...
+*TEXT 10
+~Este nível parece mais quente, como se
+um grande fogo ardesse sob seus pés...
+*TEXT 11
+~Preso no centro desta poça de lava está um Golem de Ferro,
+e uma Chave de Rubi sobre um pedestal ao lado dele...
+*TEXT 12
+~Nesta câmara você vê um Demônio do Fogo, e
+uma chave de Safira sobre um pedestal perto dele...
+*TEXT 13
+~Atrás da porta da cela você vê uma Medusa, e
+uma chave de Cristal brilhando num pedestal à sua direita...
+*TEXT 14
+~No centro desta câmara você vê um Vampiro, e uma
+chave de Ametista cintilando num pedestal a um canto...
+*TEXT 15
+~Nesta câmara você vê um Lich, e uma
+chave de Diamante brilhando numa parede escurecida atrás dele...
+*TEXT 16
+Ouro reluz nas paredes quentes destas passagens, dando
+crédito às lendas de riqueza Anã lá embaixo...
+

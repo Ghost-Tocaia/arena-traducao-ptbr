@@ -1,0 +1,16 @@
+# Cópia pristina dos arquivos do jogo original (Bethesda/ZeniMax) -
+# nunca redistribuída, é só a fonte de verdade local pros scripts.
+Originais/
+
+# Extração em massa de todos os .IMG do GLOBAL.BSA pra revisão manual
+# (908 PNGs) - também são assets do jogo original, não nosso trabalho.
+varredura_imagens/
+
+# Cópia de trabalho inteira da instalação real do jogo, usada como
+# bancada de testes/engenharia reversa (inclui ACD.EXE/GLOBAL.BSA
+# originais, não traduzidos) - mesmo motivo do Originais/.
+_dosbox_test/
+
+# Cache do Python
+__pycache__/
+*.pyc

@@ -1,0 +1,98 @@
+
+A SECAO A SEGUIR SO E VALIDA SE O PC TIVER A PRIMEIRA PECA DO
+CAJADO DO CAOS...
+
+Esta secao e para Foroozan:
+
+Ha uma chance base de 20% de que, apos a recuperacao da primeira peca do
+cajado, o encontro aleatorio sorteado seja, na verdade, um encontro com
+criaturas de Jagar Tharn. Para cada peca adicional do Cajado no inventario
+do PC, a chance aumenta em 5% (ou seja, se o PC tiver tres pecas do Cajado,
+a chance e de 30%).
+Se o encontro aleatorio for de fato um encontro com criaturas de Jagar
+Tharn, voce deve rodar uma animacao e inserir o texto descrito nos
+paragrafos a seguir na area de caixa de texto inferior. Apos o termino da
+animacao, faca um fade out e entao execute o encontro.
+Se o encontro aleatorio for um encontro com criaturas de Jagar Tharn, faca
+todos os calculos normalmente como faria em um encontro aleatorio comum,
+exceto que deve somar o numero de pecas do Cajado em posse do PC ao nivel
+do PC ao determinar os inimigos. Isso adicionara de 1 a 8 niveis ao nivel
+do PC ao sortear o encontro, dependendo de quantas pecas ele ou ela possui
+no momento.
+Uma vez que o PC tenha um encontro com criaturas de Jagar Tharn, ele ou
+ela nao tera outro ate recuperar mais uma peca do Cajado. Alem disso, se
+o PC nao conseguir um enquanto vagueia pelo mapa, devemos forcar um caso
+o PC clique no local lendario da proxima peca do Cajado no mapa
+continental.
+
+Exemplo:
+Meu personagem tem tres (3) pecas do Cajado, e se defendeu com sucesso em
+duas ocasioes, pouco depois de conseguir as 2 primeiras pecas. Ele agora
+esta viajando em busca da quarta peca. Toda vez que sorteamos um encontro
+aleatorio, verificamos se Jagar Tharn percebe o PC. A chance e de 30%.
+Se sortearmos abaixo de 30 em 1 - 100, entao somamos 3 ao nivel do PC e
+sorteamos um encontro aleatorio. Em seguida, rodamos a animacao e o texto,
+depois voltamos ao mundo real com um fade e executamos o encontro
+sorteado.
+Devemos, porem, executar um encontro antes que o PC consiga a quarta
+peca. Se, quando o PC descobrir no mapa continental onde esta a quarta
+peca do Cajado (Halls of Colossus), ainda nao tivermos sorteado um
+encontro com criaturas de Jagar Tharn, entao quando o PC clicar em Halls
+of Colossus para iniciar sua jornada ate a quarta peca, devemos forcar um
+encontro pelo caminho.
+
+
+PC tem a 1ª peca do Cajado em posse:
+Nao sei quem voce e, mas cometeu um erro fatal. Enviei meus lacaios,
+dignos da atencao que voce merece, para alivia-lo do fardo da peca do
+Cajado que agora carrega. Entregue-a a eles e ordenarei que sua morte seja
+indolor e rapida. Resista, e vera tamanho sofrimento que implorara pela
+doce libertacao da morte...&
+
+PC tem a 2ª peca do Cajado em posse:
+Voce sobreviveu ao Labyrinthian, um lugar dos mais terriveis. Continue por
+este caminho, porem, e enfrentara coisas capazes de congelar seu proprio
+coracao. Vou lhe poupar da provacao, pois meus servos se aproximam agora
+mesmo. De seu corpo dilacerado, tomarei o que e meu...&
+
+PC tem a 3ª peca do Cajado em posse:
+Por que voce escolhe se opor a mim quando e obvio que o destruirei. Mesmo
+enquanto cada peca do Cajado entra em sua posse, torna-se mais facil
+encontra-lo, e e exatamente isso que fiz. Enfrente minhas criaturas, se
+ousar. Ja cansei de brincar com voce...&
+
+PC tem a 4ª peca do Cajado em posse:
+E obvio, quem quer que voce seja, que e um inimigo astuto e a altura. Nao
+insultarei sua inteligencia com mais digressoes. Meus lacaios logo se
+aproximam, mas nao o entregarei a porta sombria da Morte.
+Voce provou seu valor. Uma vez morto, o ressuscitarei para lutar por mim,
+como um de meus servos. Renda-se a mim agora e lhe ofereco vida eterna...&
+
+PC tem a 5ª peca do Cajado em posse:
+Eu o subestimei, isso e claro. Voce nao apenas derrotou as criaturas
+inuteis que enviei contra voce, mas conseguiu sobreviver a Crystal Tower,
+um feito que por si so poderia ser lenda. E triste que eu seja forcado a
+destrui-lo. Prepare-se, pois meus lacaios chegam...&
+
+PC tem a 6ª peca do Cajado em posse:
+Voce rejeitou minha oferta de vida eterna, e derrotou a Crypt of Hearts.
+Sua lista de feitos cresce. Voce nao conseguira, porem, completar a forja
+do Cajado. Minhas forcas sao inesgotaveis, e voce sucumbira. Prepare-se,
+pois meus servos chegam...&
+
+PC tem a 7ª peca do Cajado em posse:
+Voce me surpreende com sua tenacidade. De nada adianta escapar das minhas
+armadilhas, pois este jogo chega ao fim. A peca final do Cajado esta em
+Dagoth-Ur, na provincia de Morrowind. A informacao e inutil para voce,
+pois ninguem conhece a entrada do vulcao, e mesmo que sobreviva as
+criaturas que enviei contra voce agora, nao sobrevivera as suas
+profundezas. Despeco-me de voce, %pcf. Voce foi um adversario mais que
+digno...&
+
+PC tem a 8ª peca do Cajado em posse:
+Parabenizo-o pelo seu sucesso. Descobriu, porem, o que eu ja sabia o
+tempo todo? O Cajado esta drenado de todo potencial magico. Fiz isso eu
+mesmo antes de espalhar as pecas pelo reino. E um bastao inutil, bom para
+bater manteiga ou remar um barco, mas nao para salvar o Imperador. Venha
+me encontrar se ousar, e o aliviarei de qualquer fardo adicional que
+pense em enfrentar. Minhas legioes aguardam...&

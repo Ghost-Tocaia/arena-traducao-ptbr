@@ -1,0 +1,206 @@
+*BOXCAP 0
+*CEILING 150 384
+floora.set	#4
+*BOXCAP 1
+floorb.set	#2
+*BOXCAP 2
+floorc.set	#3
+*BOXCAP 3
+floord.set	#2
+
+@WALLS
+*DRYCHASM
+pit.img
+*WETCHASM
+water.img
+*LAVACHASM
+lava.img
+
+*DOOR 0
+door1.img
+*DOOR 0
+door2.img
+*DOOR 0
+door3.img
+*DOOR 0
+door4.img
+*DOOR 0
+door5.img
+*DOOR 0
+door6.img
+
+dwa01.set	#2
+dwb01.set	#2
+dwc01.set	#2
+
+*LEVELDOWN
+stairdwn.img
+*LEVELUP
+stairup.img
+
+*TRANS
+*DOOR 90
+mcell.img
+
+*BOXSIDE 0
+*DOOR 1
+dwd01.set	#2
+*BOXSIDE 1
+*DOOR 2
+dwe01.set	#2
+*BOXSIDE 2
+*DOOR 1
+dwf01.set	#2
+*BOXSIDE 3
+*DOOR 2
+dwg01.set	#2
+*BOXSIDE 4
+*DOOR 1
+dwh01.set	#2
+*BOXSIDE 5
+*DOOR 2
+dwi01.set	#2
+*BOXSIDE 6
+*DOOR 1
+dwj01.set	#2
+*BOXSIDE 7
+*DOOR 2
+dwk01.set	#2
+*BOXSIDE 8
+*DOOR 1
+dwl01.set	#2
+*BOXSIDE 9
+*DOOR 2
+dwm01.set	#2
+*BOXSIDE 10
+*DOOR 1
+dwn01.set	#2
+*BOXSIDE 11
+*DOOR 2
+dwo01.set	#2
+*BOXSIDE 12
+*DOOR 1
+dwp01.set	#2
+*BOXSIDE 13
+*DOOR 2
+dwq01.set	#2
+
+@FLATS
+brazier.dfa	S:5
+candle.dfa	S:3
+nbones1.img
+*ITEM 1
+key.img
+ncolumn1.img	F:1
+*ITEM 2
+deadbody.img
+*ITEM 3
+equipmen.img
+*ITEM 4
+treasre1.img
+*ITEM 5
+treasre2.img
+*ITEM 6
+treasre3.img
+daltar1.dfa	F:1
+imaiden.img	F:1
+coffin1.img	F:1
+coffin2.img	F:1
+roots1.img	Y:-75
+roots2.img	Y:-75
+roots3.img	Y:-75
+chains1.img	Y:-75
+chains2.img	Y:-75
+rubble.img
+*ITEM 7
+chestc.img
+*ITEM 8
+chesto.img
+*ITEM 32
+rat.dfa
+*ITEM 33
+goblin.dfa
+*ITEM 34
+lizrdman.dfa
+*ITEM 35
+wolf.dfa
+*ITEM 36
+snowwolf.dfa
+*ITEM 37
+orc.dfa
+*ITEM 38
+skeleton.dfa
+*ITEM 39
+ogre.dfa
+*ITEM 40
+spider.dfa
+*ITEM 41
+ghoul.dfa
+*ITEM 42
+hellhoun.dfa
+*ITEM 43
+ghost.dfa
+*ITEM 44
+zombie.dfa
+*ITEM 45
+troll.dfa
+*ITEM 46
+wraith.dfa
+*ITEM 47
+beholder.dfa
+*ITEM 48
+icegolem.dfa
+*ITEM 49
+stonegol.dfa
+*ITEM 50
+irongole.dfa
+*ITEM 51
+firedaem.dfa
+*ITEM 52
+medusa.dfa
+*ITEM 53
+vampire.dfa
+*ITEM 54
+lich.dfa
+
+@SOUND
+arrowfr.voc 2
+bash.voc 27
+bodyfall.voc 20
+clank.voc 4
+clicks.voc 25
+closdoor.voc 5
+deepchoi.voc 28
+dirtl.voc 0
+dirtr.voc 1
+drip1.voc 16
+drip2.voc 17
+drums.voc 18
+eerie.voc 30
+ehit.voc 10
+explode.voc 8
+grind.voc 14
+humeerie.voc 31
+lock.voc 21
+opendoor.voc 6
+portc.voc 15
+slowball.voc 7
+splash.voc 23
+swimming.voc 22
+swish.voc 11
+uhit.voc 9
+wind.voc 19
+
+@TEXT
+*TEXT 0
++18
+*TEXT 1
+~Você entra na montanha de fogo, Dagoth-Ur. Ao seu redor o ar
+cintila com o calor. Até o chão de pedra está quente ao toque...
+*TEXT 2
+As passagens dentro deste vulcão estão cobertas de fuligem,
+e o cheiro de enxofre paira por toda parte.
+*TEXT 3
+Este aposento parece ser algum tipo de cripta...
+
+

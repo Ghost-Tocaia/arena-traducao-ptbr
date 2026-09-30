@@ -1,0 +1,191 @@
+@FLOORS
+*BOXCAP 0
+dwl02.set	#2
+*BOXCAP 1
+*CEILING 120 305
+floord01.img
+*BOXCAP 2
+floor_c1.img
+
+@WALLS
+*DOOR 0
+mdoor1.img
+*DOOR 0
+mdoor2.img
+*DOOR 0
+mdoor3.img
+*DOOR 0
+mdoor4.img
+*DOOR 0
+mdoor5.img
+*DOOR 0
+mdoor6.img
+
+*LEVELDOWN
+msd.img
+*LEVELUP
+msu.img
+
+*TRANS
+*DOOR 0
+mcell.img
+
+*BOXCAP 3
+*BOXSIDE 0
+*DOOR 2
+mineb.set	#4
+*BOXCAP 4
+*BOXSIDE 1
+*DOOR 2
+minea1.set	#4
+*BOXCAP 5
+*BOXSIDE 2
+*DOOR 2
+dwl02.set	#2
+*BOXCAP 6
+*BOXSIDE 3
+*DOOR 2
+dwl02.set	#2
+
+*TRANSWALKTHRU
+brace.img
+
+*BOXSIDE 9
+*LAVACHASM
+mlava.img
+*BOXSIDE 10
+*WETCHASM
+mwater.img
+*BOXSIDE 11
+*DRYCHASM
+pit.img
+
+@FLATS NOSHOW
+bagage1.img     F:1
+brazier.dfa     S:4
+candle.dfa      S:1
+nbones1.img
+flag.img
+*ITEM 1
+key.img
+ncolumn1.img    F:1
+*ITEM 2
+deadbody.img
+*ITEM 3
+equipmen.img
+*ITEM 4
+treasre1.img
+*ITEM 5
+treasre2.img
+*ITEM 6
+treasre3.img
+daltar1.dfa     F:1
+*ITEM 7
+chestc.img
+*ITEM 8
+chesto.img
+torchpst.dfa    S:4
+barrel.img
+firepit1.dfa    S:3
+nfount1d.dfa
+*ITEM 38
+skeleton.dfa
+*ITEM 39
+ogre.dfa
+*ITEM 40
+spider.dfa
+*ITEM 42
+hellhoun.dfa
+*ITEM 43
+ghost.dfa
+*ITEM 46
+wraith.dfa
+*ITEM 47
+beholder.dfa
+*ITEM 49
+stonegol.dfa
+*ITEM 50
+irongole.dfa
+*ITEM 51
+firedaem.dfa
+*ITEM 52
+medusa.dfa
+*ITEM 53
+vampire.dfa
+*ITEM 55
+Mage
+*ITEM 60
+Nightbld
+*ITEM 66
+Assassin
+*ITEM 70
+Barbaria
+*ITEM 71
+Warrior
+*ITEM 72
+Knight
+*ITEM 13
+map.img
+body06.img
+books1.img
+
+@SOUND
+arrowfr.voc 2
+bash.voc 27
+birds.voc 24
+bodyfall.voc 20
+clank.voc 4
+clicks.voc 25
+closdoor.voc 5
+deepchoi.voc 30
+dirtl.voc 0
+dirtr.voc 1
+drip1.voc 16
+drip2.voc 17
+drums.voc 18
+ehit.voc 10
+explode.voc 8
+grind.voc 14
+hichoir.voc 28
+humeerie.voc 29
+lock.voc 21
+opendoor.voc 6
+portc.voc 15
+scream2.voc 31
+slowball.voc 7
+splash.voc 23
+swimming.voc 22
+swish.voc 11
+uhit.voc 9
+wind.voc 19
+
+@TEXT
+*TEXT 0
+~Você entra nas entranhas das Minas, ciente
+de que ao seu redor há criaturas que
+vieram chamar este lugar amaldiçoado de lar...
+*TEXT 1
+~Há uma ausência de luz nesta área,
+apenas somando à sensação melancólica de abandono...
+*TEXT 2
+Diante de você há uma porta secreta habilmente
+disfarçada, levando a outra seção das Minas...
+*TEXT 3
+~Este corpo obviamente é do Irmão Barnabus.
+Seu corpo foi devastado pelos habitantes deste submundo
+e seu rosto marcado numa máscara de
+puro terror. Logo além do corpo você pode
+ver o que parece ser um mapa...
+*TEXT 4
+No chão aqui você encontra um diário. O livro parece
+rasgado e gasto, com apenas uma página ainda legível,
+-
+Os sonhos continuam. Não sei o que significam,
+mas algo precisa ser feito, ou o Império certamente
+perecerá. Talvez eu esteja louco, não sei. Vou começar
+a procurar o mapa na seção SE destas
+minas, e depois seguir a oeste ao longo
+da parede sul. Rezo para não ser tarde demais...
+-
+Obviamente este diário foi escrito pelo Irmão Barnabus...
+

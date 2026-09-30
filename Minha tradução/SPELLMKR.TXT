@@ -1,0 +1,121 @@
+#00
+%0%% de chance de infligir doença. A deterioração é de %2 pts de 
+FOR, AGI, VEL e RES, a cada rodada. +%1%% a cada %4 
+nível(is). Duração de %5 rodada(s) por nível.
+#01
+%0%% de chance de infligir veneno. O dano é de %2 pts a cada %3 rodada(s). 
++%1%% a cada %4 nível(is). Duração do feitiço de %5 rodada(s) por nível.
+#02
+%0%% de chance de causar medo. +%1%% a cada %4 nível(is). 
+Duração de %5 rodada(s) a cada %2 nível(is).
+#03
+%0%% de chance de paralisar. +%1%% a cada %4 nível(is). Duração 
+de %5 rodada(s) a cada %2 nível(is).
+#04
+%0%% de chance de amaldiçoar o(s) alvo(s). A deterioração é de %2 pts de 
+INT, VON, PER e SOR a cada rodada. +%1%% a cada %4
+nível(is). Duração de %5 rodada(s) por nível.
+#05
+%0%% de chance de causar morte. +%1%% a cada %4 nível(is).
+#06
+Causa de %0 a %1 pts de dano à saúde a cada %a rodada(s). Duração 
+de %5 rodada(s). Dano de +%2 a %3 pts a cada %4 nível(is).
+#07
+Causa de %0 a %1 pts de dano à fadiga a cada %a rodada(s). Duração 
+de %5 rodada(s). Dano de +%2 a %3 pts a cada %4 nível(is).
+#08
+Causa de %0 a %1 pts de dano aos pontos de magia a cada %a rodada(s). 
+Duração de %5 rodada(s). +%2 a %3 pts de dano a cada %4 nível(is).
+#09
+Escudo de %0 pts de vida criado. +%1 pts a cada %4 nível(is). 
+#10
+%0 parede(s) criada(s) permanentemente.
+#11
+%0 piso(s) criado(s) permanentemente.
+#12
+%0%% de chance de curar uma doença de nível igual ao do conjurador. 
++%1%% a cada %4 nível(is).
+#13
+%0%% de chance de curar veneno de nível igual ao do conjurador. +%1%% 
+a cada %4 nível(is).
+#14
+%0%% de chance de remover medo de nível igual ao do conjurador. +%1%% 
+a cada %4 nível(is).
+#15
+%0%% de chance de curar paralisia de nível igual ao do conjurador. 
++%1%% a cada %4 nível(is).
+#16
+%0%% de chance de remover uma maldição de nível igual ao do conjurador. 
++%1%% a cada %4 nível(is).
+#17
+%0%% de chance de ressuscitar uma pessoa de nível igual ao do 
+conjurador. +%1%% a cada %4 nível(is).
+#18
+%0 a %1 pts de dano à saúde +%2 a %3 pts a cada %4 nível(is).
+#19
+%0 a %1 pts de dano à fadiga +%2 a %3 pts a cada %4 
+nível(is).
+#20
+%0 a %1 pts de dano aos pontos de magia +%2 a %3 pts a cada %4 
+nível(is).
+#21
+%0%% de chance de o conjurador ser ignorado +%1%% a cada %4 nível(is). 
+%5 rodada(s) a cada %2 nível(is). Você pode %b conjurar outros feitiços.
+#22
+%0 parede(s) permanentemente negada(s).
+#23
+%0 piso(s) permanentemente negado(s).
+#24
+%0 a %1 pts de dano à saúde +%2 a %3 pts a cada 
+%4 nível(is).
+#25
+%0%% de chance de desintegrar o(s) alvo(s) de nível igual ao do 
+conjurador. +%1%% a cada %4 nível(is).
+#26
+%0%% de chance de dissipar feitiços de nível igual ao do conjurador. 
++%1%% a cada %4 nível(is). Área com raio de %5 metros.
+#27
+%0 pts de %c drenados do(s) alvo(s) por %5 rodada(s) por 
+nível. O(s) alvo(s) recupera(m) %c a uma taxa de %1 pts a cada %4 rodada(s). 
+#28
+Resistência a %c +%0%% por %5 rodada(s) a cada %2 nível(is) do 
+conjurador. +%1%% a cada %4 nível(is) do conjurador.
+#29
++%0 pts de %c ao conjurador por %5 rodada(s) por nível. 
+A perda de %c ocorrerá a uma taxa de %1 pts a cada %4 rodada(s).
+#30
++%0 a %1 pts a %c +%2 a %3 pts a cada %4 nível(is).
+#31
+Transfere %0 pts de %c do(s) alvo(s) para o conjurador.
+#32
+Gaiola de %0 pontos de vida criada ao redor do(s) alvo(s). 
++%1 pts a cada %4 nível(is).
+#33
+Conjurador invisível por %0 rodada(s) +%1 rodada(s) a cada %4 nível(is).
+#34
+Conjurador pode flutuar por %0 rodada(s). +%1 rodada(s) a cada %4 nível(is).
+#35
+Cria um globo de luz por %5 rodada(s) por nível. 
+A luz %f.
+#36
+%0%% de chance de trancar magicamente uma porta. Duração de 
+%5 rodada(s) a cada %2 nível(is). Força da fechadura +%1%% a cada %4 nív.
+#37
+%0%% de chance de abrir magicamente uma porta trancada. A chance 
+aumenta +%1%% a cada %4 nível(is).
+#38
+Regenera %0 pontos de vida a cada %1 rodada(s) 
+por %4 rodada(s) por nível.
+#39
+%0%% de chance de silenciar o(s) alvo(s) por %5 rodada(s) a cada %2 
+nível(is), +%1%% a cada %4 nível(is).
+#40
+%0%% de chance de absorver pontos de magia de um feitiço recebido. 
++%1%% a cada %4 nível(is). Duração de %5 rodada(s) a cada %2 nível(is).
+#41
+%0%% de chance de refletir um feitiço de volta ao conjurador oponente. 
++%1%% a cada %4 nível(is). Duração de %5 rodada(s) a cada %2 nível(is).
+#42
+%0%% de chance de resistir a um feitiço recebido. +%1%% a cada %4 
+nível(is). Duração de %5 rodada(s) a cada %2 nível(is).
+#

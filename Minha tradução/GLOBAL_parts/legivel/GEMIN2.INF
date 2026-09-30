@@ -1,0 +1,201 @@
+@FLOORS
+*BOXCAP 0
+floora.set	#4
+*BOXCAP 1
+floorb.set	#2
+*BOXCAP 2
+floorc.img
+
+@WALLS
+*DOOR 0
+door_1.img
+*DOOR 0
+door_2.img
+*DOOR 0
+door_3.img
+*DOOR 0
+door_4.img
+*DOOR 0
+door_5.img
+*DOOR 0
+door_6.img
+
+*LEVELDOWN
+ssd.img
+*LEVELUP
+ssu.img
+
+*TRANS
+*DOOR 0
+scell.img
+
+*DOOR 1
+mural1.img
+*DOOR 1
+mural2.img
+*DOOR 1
+mural3.img
+
+*BOXCAP 3
+*BOXSIDE 0
+*DOOR 2
+walla.set	#5
+*BOXCAP 4
+*BOXSIDE 1
+*DOOR 2
+wallb.set	#5
+*BOXCAP 5
+*BOXSIDE 2
+*DOOR 2
+wallc.set	#5
+*BOXCAP 6
+*BOXSIDE 3
+*DOOR 2
+walld.set	#5
+*BOXCAP 7
+*BOXSIDE 4
+*DOOR 2
+walle.set	#3
+*BOXCAP 8
+*BOXSIDE 5
+*DOOR 2
+wallf.set	#4
+*BOXCAP 9
+*BOXSIDE 6
+*DOOR 2
+wallg.set	#4
+*BOXCAP 10
+*BOXSIDE 7
+*DOOR 2
+wallh.set	#4
+*BOXCAP 11
+*BOXSIDE 8
+*DOOR 2
+wall_d05.img
+*BOXCAP 12
+*BOXSIDE 9
+*DOOR 2
+wall_d06.img
+
+*BOXSIDE 10
+*LAVACHASM
+slava.img
+*BOXSIDE 11
+*WETCHASM
+swater.img
+*BOXSIDE 12
+*DRYCHASM
+pit.img
+
+@FLATS NOSHOW
+nbones1.img
+*ITEM 1
+key.img
+ncolumn1.img    F:1
+*ITEM 2
+deadbody.img
+*ITEM 3
+equipmen.img
+*ITEM 4
+treasre1.img
+*ITEM 5
+treasre2.img
+*ITEM 6
+treasre3.img
+coffin1.img     F:1
+coffin2.img     F:1
+rubble.img
+*ITEM 7
+chestc.img
+*ITEM 8
+chesto.img
+wcolumn1.dfa
+wcolumn2.dfa
+vase.img
+barrel.img
+books1.img
+naltar1.img
+ncolumn6.img
+npost11.img
+wstatue1.dfa
+wstatue2.dfa
+*ITEM 32
+rat.dfa
+*ITEM 38
+skeleton.dfa
+*ITEM 41
+ghoul.dfa
+*ITEM 44
+zombie.dfa
+*ITEM 45
+troll.dfa
+*ITEM 46
+wraith.dfa
+*ITEM 13
+TABLET.IMG
+wcolumn2.dfa
+nrock_o1.img
+nrock_o2.img
+nruins5.img
+nruins4.img
+*ITEM 47
+beholder.dfa
+*ITEM 49
+stonegol.dfa
+*ITEM 50
+irongole.dfa
+*ITEM 51
+firedaem.dfa
+
+@SOUND
+arrowfr.voc 2
+bash.voc 27
+birds.voc 24
+bodyfall.voc 20
+clank.voc 4
+clicks.voc 25
+closdoor.voc 5
+dirtl.voc 0
+dirtr.voc 1
+drip1.voc 16
+drip2.voc 17
+drums.voc 18
+ehit.voc 10
+explode.voc 8
+grind.voc 14
+lock.voc 21
+opendoor.voc 6
+portc.voc 15
+slowball.voc 7
+splash.voc 23
+swimming.voc 22
+swish.voc 11
+uhit.voc 9
+wind.voc 19
+
+@TEXT
+*TEXT 0
+Olhe para esta linha.
+Elas podem ter várias linhas.
+*TEXT 1
+Aqui está um texto completamente diferente....
+*TEXT 2
+Texto final. Deixe uma linha em branco após a última entrada de texto. Seja breve.
+*TEXT 3
+^255 0
+Responda isto, e passe -
+-
+Eu saio da terra,
+sou vendida no mercado. Quem
+me compra corta minha cauda,
+tira minha roupa de
+seda, e chora ao
+meu lado quando estou morta...
+-
+:cebola
+:uma cebola
+`CORRECT
+A porta à sua frente se destranca.
+`WRONG
+Nada acontece...
+

@@ -1,0 +1,187 @@
+# 0
+Configurar o Jogo.
+
+Esta opção permite selecionar o tipo de placa[s] de som e/ou
+música avançada que você deseja usar. Ela permite fazer
+alterações caso sua placa de som e/ou música não esteja nas
+configurações padrão de fábrica. Se você não possui uma placa
+de som ou de música, esta opção não se aplica a você.
+
+# 1
+Ler Arquivo README.
+
+Isso exibirá o arquivo README. Alterações de última hora e
+mudanças feitas no produto após a impressão do manual estarão
+documentadas neste arquivo.
+
+# 2
+Criar Disquete de Boot.
+
+Esta opção criará um disquete de inicialização que o levará
+diretamente ao programa. Ela também corrigirá a maioria dos
+problemas de memória. Você precisará de um disquete que caiba
+no seu drive A:. VOCÊ SÓ PODE FAZER ISSO NO SEU DRIVE A: COM UM
+DISQUETE DE ALTA DENSIDADE. Selecione CRIAR DISQUETE DE BOOT e
+siga as instruções na tela. Para usar este Disquete de Boot,
+coloque o disco no seu drive A: e reinicie o computador. Se você
+não precisa de um DISQUETE DE BOOT, prossiga para INSTALAR JOGO.
+
+# 3
+Instalar Jogo
+
+Copia os arquivos necessários do jogo para o seu disco rígido local.
+
+# 4
+Sair.
+
+Selecionar SAIR encerrará a rotina de instalação e retornará
+você ao prompt do DOS.
+
+# 5
+Selecionar Placa de Som.
+
+Isso permitirá que você escolha entre uma lista de diferentes
+placas de som suportadas por este programa. Mova a barra
+destacada sobre o tipo de placa de som desejado e pressione
+<ENTER>. Depois de especificar o tipo de placa de som, mova a
+barra destacada até ALTERAR PADRÃO DE SOM e pressione <ENTER>.
+Consulte a tela de ajuda de ALTERAR PADRÃO DE SOM para obter
+assistência na configuração das interrupções da placa de som.
+Se você não possui uma placa de som avançada, selecione
+CONCLUÍDO e prossiga para INSTALAR JOGO.
+
+# 6
+Selecionar Placa de Música
+
+Isso permitirá que aqueles que possuem mais de uma placa de som
+designem uma placa específica para a música. Mova a barra
+destacada sobre a placa de som desejada e pressione <ENTER>.
+Em seguida, mova a barra destacada até ALTERAR PADRÃO DE SOM e
+pressione <ENTER>. Siga a tela de ajuda de ALTERAR PADRÃO DE SOM
+para obter assistência na configuração das interrupções da
+placa de som. Se você não possui uma placa de música, ignore
+esta opção, selecione CONCLUÍDO e prossiga para INSTALAR JOGO.
+
+# 7
+Alterar Padrão de Som.
+
+As configurações de IO, DMA e IRQ referem-se a parâmetros
+numéricos que permitem que seu computador reconheça e utilize
+corretamente sua placa de som. Se a placa de som não estiver
+configurada com o padrão dela, você precisará selecionar esta
+opção e configurá-la. Se você não sabe quais são essas
+configurações, use o programa de teste que acompanha a placa de
+som. Se ainda assim não conseguir determinar as configurações,
+você precisará entrar em contato com o fabricante da placa de
+som para obter essas informações.
+
+# 8
+Alterar Padrão de Música.
+
+As configurações de IO, DMA e IRQ referem-se a parâmetros
+numéricos que permitem que seu computador reconheça e utilize
+corretamente sua placa de som. Se a placa de som não estiver
+configurada com o padrão dela, você precisará selecionar esta
+opção e configurá-la. Se você não sabe quais são essas
+configurações, use o programa de teste que acompanha a placa de
+som. Se ainda assim não conseguir determinar as configurações,
+você precisará entrar em contato com o fabricante da placa de
+som para obter essas informações.
+
+# 9
+Concluído.
+
+Depois de completar suas seleções e alterações na parte de som
+da rotina de instalação, selecione CONCLUÍDO para retornar ao
+Menu Principal.
+
+# 10
+Digite o Caminho:
+
+É aqui que seu jogo será instalado. Todos os arquivos
+necessários serão copiados para este diretório no seu disco
+rígido.
+
+# 11
+Alterar Endereço IO
+
+Ao selecionar Alterar Endereço IO, você poderá alterar o
+Endereço IO padrão. Digite o novo Endereço IO e pressione
+<ENTER>.
+
+# 12
+Alterar IRQ
+
+Ao selecionar Alterar IRQ, você poderá alterar a configuração
+padrão de IRQ para qualquer outra configuração exigida pela sua
+placa. Digite a nova configuração de IRQ e pressione <ENTER>.
+
+# 13
+Alterar DMA
+
+Ao selecionar Alterar DMA, você poderá alterar a configuração
+de DMA. Digite o Canal DMA que sua placa de som está usando e
+pressione <ENTER>.
+
+# 14
+Concluído.
+
+Isso o trará de volta ao Menu de Configuração após suas
+seleções e alterações serem feitas.
+
+# 15
+Como digitar o Endereço IO
+
+Digite o número de três dígitos para indicar o Endereço IO da
+placa de som que você está usando. Exemplos seriam 220, 230, 240.
+
+# 16
+Como digitar o IRQ
+
+Digite o número de um ou dois dígitos para indicar a
+configuração de IRQ da placa de som que você está usando.
+Exemplos seriam 10, 5, 2.
+
+# 17
+Como digitar o DMA
+
+Digite o número de um dígito para indicar o Canal DMA da placa
+de som que você está usando. Exemplos seriam 1, 2, 3.
+
+# 18
+AVISO: Você não tem memória suficiente para executar o jogo.
+
+Devido a outros programas em execução, ou à forma como seu
+computador está configurado, não há MEMÓRIA CONVENCIONAL
+suficiente para executar este jogo. Use a opção CRIAR DISQUETE
+DE BOOT para corrigir este problema.
+
+# 19
+AVISO: Nenhum driver EMS encontrado. Crie um...
+
+Este jogo exige que você tenha um driver EMS. Esse driver
+transformará memória XMS (Memória Estendida) em EMS (Memória
+Expandida). Use a opção CRIAR DISQUETE DE BOOT para corrigir
+este problema.
+
+# 20
+AVISO: Memória EMS insuficiente.
+
+Seu computador não possui a memória EMS necessária. Você pode
+tentar a opção CRIAR DISQUETE DE BOOT para corrigir isso.
+
+# 21
+DIRETÓRIO DE DADOS
+
+É aqui que os jogos salvos deste jogo em CD-ROM serão
+armazenados. O arquivo em lote (batch) para iniciar o jogo
+também será gravado neste diretório.
+
+# 22
+Visualizador do arquivo README.
+
+   <CIMA> move o arquivo 1 linha para cima
+   <BAIXO> move o arquivo 1 linha para baixo
+
+   <ESC> sai da visualização do arquivo
+#

@@ -1,0 +1,285 @@
+@FLOORS
+*BOXCAP 0
+*TOP 0
+floorb.set	#2
+*BOXCAP 1
+floor_b1.img
+*BOXCAP 2
+r2floorb.set	#3
+*BOXCAP 3
+*CEILING 130 333
+rfloord.set	#3
+*BOXCAP 4
+rfloorc.set	#3
+
+@WALLS
+*DRYCHASM
+dng2pit.img
+*WETCHASM
+dng2watr.img
+*LAVACHASM
+dng2lava.img
+
+*DOOR 0
+door1d2.img
+*DOOR 0
+door2d2.img
+*DOOR 0
+door3d2.img
+*DOOR 0
+door4d2.img
+*DOOR 0
+door5d2.img
+*DOOR 0
+door6d2.img
+
+dwa02.set	#2
+dwb02.set	#2
+dwc02.set	#2
+
+*LEVELDOWN
+strdwn2.img
+*LEVELUP
+strup2.img
+
+*TRANS
+*DOOR 90
+celdoor2.img
+
+*BOXSIDE 0
+*DOOR 1
+dwd02.set	#2
+*BOXSIDE 1
+*DOOR 2
+dwe02.set	#2
+*BOXSIDE 2
+*DOOR 1
+dwf02.set	#2
+*BOXSIDE 3
+*DOOR 2
+dwg02.set	#2
+*BOXSIDE 4
+*DOOR 1
+dwh02.set	#2
+*BOXSIDE 5
+*DOOR 2
+dwi02.set	#2
+*BOXSIDE 6
+*DOOR 1
+dwj02.set	#2
+*BOXSIDE 7
+*DOOR 2
+dwk02.set	#2
+*BOXSIDE 8
+*DOOR 1
+dwl02.set	#2
+*BOXSIDE 9
+*DOOR 2
+dwo02.set	#2
+*BOXSIDE 10
+*DOOR 1
+dwn02.set	#2
+*BOXSIDE 11
+*DOOR 2
+dwo02.set	#2
+*BOXSIDE 12
+*DOOR 1
+dwp02.set	#2
+*BOXSIDE 13
+*DOOR 2
+dwq02.set	#2
+*BOXSIDE 14
+*DOOR 1
+dwr02.set	#2
+*BOXSIDE 15
+*DOOR 2
+dws02.set	#2
+
+@FLATS
+bagage1.img	F:1
+brazier.dfa	S:5
+candle.dfa	S:3
+nbones1.img
+flag.img
+*ITEM 1
+key.img
+ncolumn1.img	F:1
+*ITEM 2
+deadbody.img
+*ITEM 3
+equipmen.img
+*ITEM 4
+treasre1.img
+*ITEM 5
+treasre2.img
+*ITEM 6
+treasre3.img
+daltar1.dfa	F:1
+imaiden.img	F:1
+coffin1.img	F:1
+coffin2.img	F:1
+roots1.img
+roots2.img
+roots3.img
+chains1.img
+chains2.img
+rubble.img
+*ITEM 7
+chestc.img
+*ITEM 8
+chesto.img
+*ITEM 32
+rat.dfa
+*ITEM 33
+goblin.dfa
+*ITEM 34
+lizrdman.dfa
+*ITEM 35
+wolf.dfa
+*ITEM 36
+snowwolf.dfa
+*ITEM 37
+orc.dfa
+*ITEM 38
+skeleton.dfa
+*ITEM 39
+ogre.dfa
+*ITEM 40
+spider.dfa
+*ITEM 41
+ghoul.dfa
+*ITEM 42
+hellhoun.dfa
+*ITEM 43
+ghost.dfa
+*ITEM 44
+zombie.dfa
+*ITEM 45
+troll.dfa
+*ITEM 46
+wraith.dfa
+*ITEM 47
+beholder.dfa
+*ITEM 48
+icegolem.dfa
+*ITEM 49
+stonegol.dfa
+*ITEM 50
+irongole.dfa
+*ITEM 51
+firedaem.dfa
+*ITEM 52
+medusa.dfa
+*ITEM 53
+vampire.dfa
+*ITEM 54
+lich.dfa
+*ITEM 13
+chaos2.dfa	S:5 Y:-50
+
+@SOUND
+arrowfr.voc 2
+bash.voc 27
+birds.voc 24
+bodyfall.voc 20
+clank.voc 4
+clicks.voc 25
+closdoor.voc 5
+deepchoi.voc 30
+dirtl.voc 0
+dirtr.voc 1
+drip1.voc 16
+drip2.voc 17
+drums.voc 18
+ehit.voc 10
+explode.voc 8
+grind.voc 14
+hichoir.voc 28
+humeerie.voc 29
+lock.voc 21
+opendoor.voc 6
+portc.voc 15
+scream2.voc 31
+slowball.voc 7
+splash.voc 23
+swimming.voc 22
+swish.voc 11
+uhit.voc 9
+wind.voc 19
+
+
+@TEXT
+*TEXT 0
+Siga primeiro pelo caminho central,
+pois as pistas para resolver os
+segredos do Labyrinthian aguardam ali...
+*TEXT 1
+Esta é a história de dois
+irmãos, que buscaram o segredo da
+vida. Eles se aventuraram neste Labyrinthian,
+cansados da guerra e das dificuldades...
+*TEXT 2
+O primeiro era Kanen, o Ancião,
+um homem forte e astuto. Ele
+buscava riquezas e joias, mas descobriu
+que o Destino tinha outros planos...
+*TEXT 3
+O segundo era Mogrus, o Obtuso,
+e poucos sabiam seu real valor.
+Viam apenas o gigante desajeitado, não a
+criança que fora abençoada ao nascer...
+*TEXT 4
+Os poucos a quem contaram seus planos
+imploraram, de joelhos, que desistissem. Mas os
+irmãos testariam este enigma do Norte,
+pois até então não conheciam a derrota...
+*TEXT 5
+Esta é a história de dois irmãos, que
+falharam no segredo da vida. Presos para sempre por
+dois enigmas que levam ao prêmio, e a um
+engenho tão astuto e afiado quanto uma faca...
+*TEXT 6
+Mogrus, o Obtuso, embora seja um tédio, guarda
+a única chave que abre esta porta. Para
+achar o enigma, deves primeiro achar o filho, começa
+tua busca fatídica atrás da porta número um...
+*TEXT 7
+Kanen, o sábio, guarda mais a ser visto, uma
+chave e um enigma, e uma prova entre os
+dois. Para passar por este portal, feito por
+poucos, busca o irmão atrás da porta número dois...
+*TEXT 8
+Rabiscada no chão aqui está a palavra,
+-
+Porta 1
+-
+*TEXT 9
+Rabiscada no chão aqui está a palavra,
+-
+Porta 2
+-
+*TEXT 10
+^255 0
+Aqui está o portal final, a porta para a vida...
+-
+O que a força e o vigor
+não conseguem atravessar, eu, com um
+toque suave, consigo; e muitos nestes salões
+torcidos ficariam de pé, se eu
+não estivesse, como um amigo, à mão...
+-
+Resposta?
+:chave
+:uma chave
+`CORRECT
+És verdadeiramente digno do prêmio
+de Shalidor, a segunda peça
+do Cajado do Caos aguarda...
+`WRONG
+Respondeste às pressas, e
+de fato erraste...
+*TEXT 11
+Para o Domínio de Mogrus
+*TEXT 12
+Para o Domínio de Kanen
+

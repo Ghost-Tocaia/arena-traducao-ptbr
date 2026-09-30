@@ -1,0 +1,203 @@
+@FLOORS
+*BOXCAP 0
+*CEILING 150 384 1
+t_ngrass.img
+*BOXCAP 1
+t_nsdwlk.img
+*BOXCAP 2
+t_nroad.img
+
+@WALLS
+*DRYCHASM
+dng2pit.img
+*WETCHASM
+dng2watr.img
+*LAVACHASM
+dng2lava.img
+*TRANSWALKTHRU
+t_garden.img
+
+*DOOR 0
+door4d2.img
+*DOOR 0
+door5d2.img
+*DOOR 0
+door6d2.img
+
+*LEVELDOWN
+strdwn2.img
+*LEVELUP
+strup2.img
+
+*TRANS
+*DOOR 1
+celdoor2.img
+
+*BOXCAP 3
+*BOXSIDE 0
+*DOOR 1
+dwd02.set	#2
+*BOXCAP 4
+*BOXSIDE 1
+*DOOR 2
+dwe02.set	#2
+*BOXCAP 5
+*BOXSIDE 2
+*DOOR 1
+dwf02.set	#2
+*BOXCAP 6
+*BOXSIDE 3
+*DOOR 2
+dwg02.set	#2
+*BOXCAP 7
+*BOXSIDE 4
+*DOOR 2
+dwi02.set	#2
+*BOXCAP 8
+*BOXSIDE 5
+*DOOR 1
+dwj02.set	#2
+*BOXCAP 9
+*BOXSIDE 6
+*DOOR 2
+dwk02.set	#2
+*BOXCAP 10
+*BOXSIDE 7
+*DOOR 1
+dwl02.set	#2
+*BOXCAP 11
+*BOXSIDE 8
+*DOOR 2
+dwm02.set	#2
+*BOXCAP 12
+*BOXSIDE 9
+*DOOR 1
+dwn02.set	#2
+*BOXCAP 13
+*BOXSIDE 10
+*DOOR 1
+treewall.set	#4
+*BOXCAP 14
+*BOXSIDE 11
+*DOOR 2
+*TRANS
+erie.set	#4
+*BOXSIDE 12
+*DOOR 1
+*TRANS
+hedge.img
+
+@FLATS
+brazier.dfa	S:5
+nbush1.img
+nbush6.img
+nwell1.img	F:1
+nwell2.img	F:1
+barrel.img	F:1
+nbox.img	F:1
+nfir1.img	F:5
+nfir2.img	F:5
+noak2.img	F:5
+noak3.img	F:5
+noak4.img	F:5
+npine4.img	F:5
+nstatue1.img	F:1
+nstatue2.img	F:1
+nfount1m.dfa	F:1
+*ITEM 1
+key.img
+ncolumn1.img	F:1
+*ITEM 2
+deadbody.img
+*ITEM 3
+equipmen.img
+*ITEM 4
+treasre1.img
+*ITEM 5
+treasre2.img
+*ITEM 6
+treasre3.img
+roots1.img
+roots2.img
+roots3.img
+*ITEM 7
+chestc.img
+*ITEM 8
+chesto.img
+*ITEM 32
+rat.dfa
+*ITEM 33
+goblin.dfa
+*ITEM 35
+wolf.dfa
+*ITEM 36
+snowwolf.dfa
+*ITEM 37
+orc.dfa
+*ITEM 38
+skeleton.dfa
+*ITEM 40
+spider.dfa
+*ITEM 41
+ghoul.dfa
+*ITEM 43
+ghost.dfa
+*ITEM 44
+zombie.dfa
+*ITEM 45
+troll.dfa
+*ITEM 46
+wraith.dfa
+*ITEM 47
+beholder.dfa
+*ITEM 49
+stonegol.dfa
+*ITEM 50
+irongole.dfa
+*ITEM 51
+firedaem.dfa
+*ITEM 52
+medusa.dfa
+*ITEM 13
+chaos2.dfa	Y:-50	S:4
+tscary01.img	F:5
+tscary02.img	F:5
+tscary03.img	F:5
+tscary04.img	F:5
+wseaweed.dfa
+
+@SOUND
+arrowfr.voc 2
+bash.voc 27
+birds.voc 31
+birds2.voc 30
+bodyfall.voc 20
+clank.voc 4
+clicks.voc 25
+closdoor.voc 5
+dirtl.voc 0
+dirtr.voc 1
+drip1.voc 16
+drip2.voc 17
+drums.voc 18
+eerie.voc 29
+ehit.voc 10
+explode.voc 8
+grind.voc 14
+lock.voc 21
+opendoor.voc 6
+portc.voc 15
+slowball.voc 7
+splash.voc 23
+swimming.voc 22
+swish.voc 11
+uhit.voc 9
+wind.voc 28
+
+@TEXT
+*TEXT 0
+~Você entra no Bosque de Elden, arrepiado
+pelas névoas que trazem escuridão perpétua a
+este lugar melancólico. Você pode ouvir coisas se
+arrastando pela vegetação, e um rosnado e
+gemido distantes que não soam nada humanos...

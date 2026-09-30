@@ -1,0 +1,172 @@
+@FLOORS
+*BOXCAP 0
+*CEILING 135 346
+floora.set	#4
+*BOXCAP 1
+floorb.set	#2
+*BOXCAP 2
+floorc.set	#3
+*BOXCAP 3
+floord.set	#2
+
+@WALLS
+*DRYCHASM
+pit.img
+*WETCHASM
+water.img
+*LAVACHASM
+lava.img
+
+*DOOR 0
+door1.img
+*DOOR 0
+door2.img
+*DOOR 0
+door3.img
+*DOOR 0
+door4.img
+*DOOR 0
+door5.img
+*DOOR 0
+door6.img
+
+dwc01.set	#2
+
+*LEVELDOWN
+stairdwn.img
+*LEVELUP
+stairup.img
+
+*TRANS
+*DOOR 90
+celldoor.img
+
+*BOXSIDE 0
+*DOOR 1
+dwd01.set	#2
+*BOXSIDE 1
+*BOXSIDE 2
+*DOOR 1
+dwf01.set	#2
+*BOXSIDE 3
+*BOXSIDE 4
+*BOXSIDE 5
+*BOXSIDE 6
+*BOXSIDE 7
+*BOXSIDE 8
+*DOOR 1
+dwl01.set	#2
+*BOXSIDE 9
+*BOXSIDE 10
+*BOXSIDE 11
+*DOOR 2
+dwo01.set	#2
+
+@FLATS
+candle.dfa      S:3
+nbones1.img
+skel01.img
+skel02.img
+skel03.img
+pilobons.img
+flag.img
+*ITEM 1
+key.img
+ncolumn1.img    F:1
+*ITEM 2
+deadbody.img
+*ITEM 3
+equipmen.img
+*ITEM 4
+treasre1.img
+*ITEM 5
+treasre2.img
+*ITEM 6
+treasre3.img
+rubble.img
+*ITEM 7
+chestc.img
+*ITEM 8
+chesto.img
+*ITEM 38
+skeleton.dfa
+*ITEM 39
+ogre.dfa
+*ITEM 40
+spider.dfa
+*ITEM 41
+ghoul.dfa
+*ITEM 42
+hellhoun.dfa
+*ITEM 43
+ghost.dfa
+*ITEM 44
+zombie.dfa
+*ITEM 45
+troll.dfa
+*ITEM 46
+wraith.dfa
+*ITEM 50
+irongole.dfa
+*ITEM 51
+firedaem.dfa
+*ITEM 52
+medusa.dfa
+*ITEM 54
+lich.dfa
+*ITEM 13
+HAMMER.IMG
+
+@SOUND
+arrowfr.voc 2
+back1.voc 30
+bash.voc 27
+bodyfall.voc 20
+clank.voc 4
+closdoor.voc 5
+dirtl.voc 0
+dirtr.voc 1
+drip1.voc 16
+drip2.voc 17
+drums.voc 18
+eerie.voc 31
+ehit.voc 10
+explode.voc 8
+grind.voc 14
+hichoir.voc 29
+humeerie.voc 28
+lock.voc 21
+opendoor.voc 6
+portc.voc 15
+slowball.voc 7
+splash.voc 23
+swimming.voc 22
+swish.voc 11
+uhit.voc 9
+wind.voc 19
+
+@TEXT
+*TEXT 0
+^255 0
+Esta porta está lacrada. Uma pergunta está
+gravada acima dela. Que resposta você dá?
+-
+O que é a
+coisa que vem em lençóis,
+mas não pode ser dobrada
+nem recolhida de novo?
+-
+:chuva
+:a chuva
+`CORRECT
+A porta agora está destrancada.
+`WRONG
+Nada acontece.
+
+*TEXT 1
++57
+*TEXT 2
++58
+*TEXT 3
++59
+

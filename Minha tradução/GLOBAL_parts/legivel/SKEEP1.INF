@@ -1,0 +1,236 @@
+@FLOORS
+*CEILING 150
+*BOXCAP 0
+flcas_a1.img
+*BOXCAP 1
+flcas_b1.img
+*BOXCAP 2
+flcasc.set      #2
+*BOXCAP 3
+flcasd.set      #2
+*BOXCAP 4
+flcas_e1.img
+*BOXCAP 14
+bluerug.img
+*BOXCAP 15
+redrug.img
+
+@WALLS
+*BOXSIDE 0
+*DRYCHASM
+caspit.img
+*BOXSIDE 1
+*WETCHASM
+wcas.img
+*BOXSIDE 2
+*LAVACHASM
+caslava.img
+
+*DOOR 0
+dcas2.img
+*DOOR 0
+dcas3.img
+*DOOR 0
+dcas4.img
+*DOOR 0
+dcas5.img
+*DOOR 0
+dcas6.img
+
+*LEVELDOWN
+casd.img
+*LEVELUP
+casu.img
+
+*TRANS
+*DOOR 2
+portculs.img
+
+*BOXSIDE 3
+*BOXCAP 5
+*DOOR 1
+casa.set        #4
+*BOXSIDE 4
+*BOXCAP 6
+*DOOR 2
+casb.set        #3
+*BOXSIDE 5
+*BOXCAP 7
+*DOOR 1
+casc.set        #2
+*BOXSIDE 6
+*BOXCAP 8
+*DOOR 2
+casd.set        #4
+*BOXSIDE 7
+*BOXCAP 9
+*DOOR 1
+case.set        #4
+*BOXSIDE 8
+*BOXCAP 10
+*DOOR 2
+casf.set        #4
+*BOXSIDE 9
+*BOXCAP 11
+*DOOR 1
+casg.set        #3
+*BOXSIDE 10
+*BOXCAP 12
+*DOOR 2
+cash.set        #4
+*BOXSIDE 11
+*BOXCAP 13
+*DOOR 1
+casi.set        #4
+*BOXSIDE 12
+*DOOR 2
+casj.set        #3
+*BOXSIDE 13
+*DOOR 1
+cask.set        #3
+*BOXSIDE 14
+*DOOR 2
+casl.set        #2
+
+
+@FLATS NOSHOW
+bagage1.img     F:1
+brazier.dfa     S:2
+candle.dfa      S:2
+nbones1.img
+*ITEM 0
+flag.img
+*ITEM 1
+key.img
+ncolumn1.img    F:1
+*ITEM 2
+deadbody.img
+*ITEM 3
+equipmen.img
+*ITEM 4
+treasre1.img
+*ITEM 5
+treasre2.img
+*ITEM 6
+treasre3.img
+daltar1.dfa     F:1
+imaiden.img     F:1
+coffin1.img     F:1
+coffin2.img     F:1
+rubble.img
+*ITEM 7
+chestc.img
+*ITEM 8
+chesto.img
+torchpst.dfa    S:3
+wcolumn1.dfa    F:1
+wcolumn2.dfa    F:1
+vase.img
+barrel.img
+books1.img
+firepit1.dfa    S:3
+naltar1.img     F:1
+nbarrel.img
+ncolumn5.img    F:1
+ncolumn6.img    F:1
+nfount1d.dfa    F:1
+nfount1m.dfa    F:1
+nfount1t.dfa    F:1
+wstatue1.dfa    F:1
+wstatue2.dfa    F:1
+chair3.img      F:65
+clothes.img
+crystaff.dfa    S:3
+hookah.img
+jugs.img
+kitchn01.img
+kitchn03.img
+nstatue3.img
+pilobons.img
+skel01.img
+skel03.img
+table1.img
+table3.img
+wardrobe.img
+wcolumn1.dfa
+writing1.img
+wstatue1.dfa
+*ITEM 32
+rat.dfa
+*ITEM 33
+goblin.dfa
+*ITEM 34
+lizrdman.dfa
+*ITEM 35
+wolf.dfa
+*ITEM 37
+orc.dfa
+*ITEM 38
+skeleton.dfa
+*ITEM 39
+ogre.dfa
+*ITEM 40
+spider.dfa
+*ITEM 41
+ghoul.dfa
+*ITEM 13
+parchflt.img
+
+@SOUND
+arrowfr.voc 2
+bash.voc 27
+birds.voc 24
+bodyfall.voc 20
+clank.voc 4
+clicks.voc 25
+closdoor.voc 5
+dirtl.voc 0
+dirtr.voc 1
+drip1.voc 16
+drip2.voc 17
+drums.voc 18
+ehit.voc 10
+explode.voc 8
+grind.voc 14
+lock.voc 21
+opendoor.voc 6
+portc.voc 15
+slowball.voc 7
+splash.voc 23
+swimming.voc 22
+swish.voc 11
+uhit.voc 9
+wind.voc 19
+
+
+@TEXT
+*TEXT 0
+As Prisões
+*TEXT 1
+O cheiro de mofo e
+decomposição sobe da masmorra inundada...
+*TEXT 2
+O baú está mofado, como se
+tivesse ficado submerso na água
+antes de ser trazido para cá.
+*TEXT 3
+Este cômodo, e outros próximos, já
+foram escritórios, mas a pilhagem e a
+decadência os deixaram meras cascas vazias...
+*TEXT 4
+Uma placa antiga e desbotada diz "O
+rei e o palácio estão perdidos. Nós,
+os últimos sobreviventes da corte de Stonekeep, seguimos
+rumo ao sul pelas cavernas dos goblins."
+*TEXT 5
+Uma placa antiga e desbotada diz "Estamos
+seguindo os túneis dos goblins rumo
+ao norte para fazer nossa última resistência."
+*TEXT 6
+Uma placa rachada, coberta de poeira,
+diz "Bem-vindo a Stonekeep. Entreguem
+todas as armas aos guardas,
+pois somos os guardiões da paz."
+*TEXT 7
+A Câmara Real
+
