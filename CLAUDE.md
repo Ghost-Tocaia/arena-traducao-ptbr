@@ -41,13 +41,17 @@ ZeniMax) ou cópias de trabalho/teste da instalação real, não trabalho
 do projeto. Continuam no disco local, só fora do controle de versão.
 
 `nexus_release/` (gitignorado, só local, não existe num clone novo)
-guarda os pacotes `.zip` prontos pra upload manual no Nexus Mods (um
-por plataforma — DOSBox e OpenTESArena — cada um já com o
-`ACD.EXE`/`TEMPLATE.DAT` certo embutido, gerados a partir de `build/`)
-e o texto da página do mod pronto pra copiar/colar
-(`nexus-texto.html` — artifact publicado com botão de cópia
-*formatada*, não Markdown nem tags HTML cruas, pro editor visual do
-Nexus; `texto-pagina-nexus.txt` é a mesma cópia em texto puro).
+guarda os pacotes `.zip` prontos pra upload manual no Nexus Mods — um
+por plataforma, DOSBox e OpenTESArena, cada um já com o
+`ACD.EXE`/`TEMPLATE.DAT` certo embutido. Gerados (ou regenerados, se
+`build/` mudar) por `scripts/build_nexus_release.py` — rode
+`build_all.py` antes se `build/` estiver desatualizado. A pasta também
+guarda o texto da página do mod pronto pra copiar/colar, mantido à mão
+(não gerado por script): `nexus-texto.html` (artifact publicado com
+botão de cópia *formatada*, não Markdown nem tags HTML cruas, pro
+editor visual do Nexus) e `texto-pagina-nexus.txt` (mesma cópia em
+texto puro). Se os números de tradução mudarem, atualize os três
+(`README.md`, `nexus-texto.html`, `texto-pagina-nexus.txt`) junto.
 
 `README.md` é o arquivo voltado ao público não técnico (como instalar,
 estimativa de % traduzido por versão) — **mantenha os números de lá

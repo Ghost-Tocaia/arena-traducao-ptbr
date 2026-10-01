@@ -108,6 +108,7 @@ Pipeline de arquivos de texto (`.DAT`/`.TXT`/`.LST`) — ver
 | `reflow_template.py` | Correção pontual de `TEMPLATE.DAT`: reflui a quebra de linha física de cada parágrafo pra bater com o padrão irregular do original (não um wrap uniforme ~31 caracteres), suspeito de causar o bug de diálogo trocado no jogo real — ver [pipeline-textos.md](pipeline-textos.md) |
 | `diagnostic_exact_length.py` | Ferramenta DESCARTÁVEL de diagnóstico (não é correção de tradução de verdade): força cada bloco de `TEMPLATE.DAT` a ter o mesmo tamanho em bytes do original em inglês, sacrificando qualidade da tradução, só pra testar se alinhamento byte-exato por si só resolve o bug de diálogo — ver [inventario-arquivos.md](inventario-arquivos.md#templatedat--arquivo-real-do-jogo-mas-não-é-seguro-traduzir-para-dosbox) |
 | `build.py` | Remove acentos/cedilha de todo `Minha tradução/` (exceto imagens binárias e `.INF` já compilados), saída em `build/` |
+| `build_nexus_release.py` | Monta os dois `.zip` (DOSBox/OpenTESArena) prontos pra upload manual no Nexus Mods a partir de `build/`, em `nexus_release/` (gitignorado) |
 
 Pipeline do arquivo `GLOBAL.BSA` e das imagens `.IMG`/`.INF` que ele
 contém — ver [pipeline-imagens.md](pipeline-imagens.md) e
