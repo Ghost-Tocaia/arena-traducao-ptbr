@@ -82,17 +82,18 @@ contagem de arquivos/impressão qualitativa).
   os três helpers de patch por offset/busca/array, os campos que
   travam o motor com qualquer edição (`AttributeNames`,
   `CitizenRumorGenerator`) e por quê, a técnica de inversão
-  substantivo/adjetivo usada no gerador de nome de taverna, e o que
-  ainda falta traduzir (CityGeneration Temple/Equipment).
+  substantivo/adjetivo usada no gerador de nome de taverna — todo texto
+  mapeado do `ACD.EXE` já está traduzido, nada pendente conhecido ali.
 - **[docs/inventario-arquivos.md](docs/inventario-arquivos.md)** —
   catálogo de todo arquivo do jogo (solto na pasta de instalação ou
   empacotado dentro do `GLOBAL.BSA`), separado em traduzido / analisado
-  sem necessidade de tradução / não analisado / **confirmado com texto,
-  pendente de tradução** (seção 4 — comece por aqui se quiser traduzir
-  algo novo, já tem candidatos prontos: `QUOTE.IMG`, `AUTOMAP.IMG`,
-  `OP.IMG`, os 17 `FORM*.IMG` da Cria-Feitiços, entre outros). Consulte
-  antes de sair procurando texto novo, para não reabrir o que já foi
-  descartado.
+  sem necessidade de tradução / não analisado / confirmado com texto
+  pendente de tradução. **Todas as categorias estão fechadas** (seção
+  4, "candidatos pendentes", fica vazia permanentemente desde
+  30/09/2026 — os 908 PNGs de `varredura_imagens/` foram revisados um a
+  um pelo usuário e tudo que tinha texto já foi traduzido). Consulte
+  antes de sair "procurando texto novo" — não deveria sobrar nenhum;
+  se achar algo, é descoberta nova, não um candidato já catalogado.
 
 ## Regras que valem para qualquer tarefa aqui
 
@@ -178,6 +179,9 @@ python3 scripts/build_bsa_slider.py
 python3 scripts/build_bsa_quote.py
 python3 scripts/build_bsa_op.py
 python3 scripts/build_bsa_forms.py
+python3 scripts/build_bsa_accprejt.py
+python3 scripts/build_bsa_charspel.py
+python3 scripts/build_bsa_scroll03.py
 python3 scripts/build_bsa_inf.py
 python3 scripts/build_inf_loose.py
 python3 scripts/compile_images.py
