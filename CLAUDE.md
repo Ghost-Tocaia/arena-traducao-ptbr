@@ -154,6 +154,15 @@ contagem de arquivos/impressão qualitativa).
     `compile_*.py` correspondente de novo — não precisa re-rodar o
     `build_bsa_*.py`. Ver
     [docs/pipeline-imagens.md](docs/pipeline-imagens.md#legivel-vs-formato-do-jogo).
+11. **`build_all.py` não roda "do zero" sem um passo manual antes,
+    hoje.** Seu passo 1 (`merge_template.py`) exige
+    `Minha tradução/TEMPLATE_parts/`, que não existe desde que a
+    tradução do `TEMPLATE.DAT` foi finalizada (a pasta é conteúdo
+    de trabalho descartável, apagada depois de usada). Rode
+    `python3 scripts/split_template.py` uma vez antes (regenera
+    `TEMPLATE_parts/` a partir do `TEMPLATE.DAT` já traduzido em
+    `Minha tradução/` — nunca lê de `Originais/`, não reverte nada) ou
+    `build_all.py` quebra com `FileNotFoundError` sem mensagem clara.
 
 ## Comandos mais usados
 
@@ -193,6 +202,13 @@ python3 scripts/compile_inf.py
 python3 scripts/merge_bsa.py
 
 # Pipeline completo, do zero
+# ATENCAO: so funciona se "Minha traducao/TEMPLATE_parts/" existir -
+# hoje (desde a finalizacao da traducao do TEMPLATE.DAT) essa pasta
+# nao existe, entao o passo 1 (merge_template.py) quebra com
+# FileNotFoundError sem mensagem clara. Rode isto antes, uma vez, pra
+# regenerar TEMPLATE_parts/ a partir do TEMPLATE.DAT ja traduzido (le
+# de "Minha traducao/", nao de "Originais/" - seguro, nao reverte nada):
+#   python3 scripts/split_template.py
 python3 scripts/build_all.py
 
 # Regenerar o espelho legível pristino em Originais/legivel/
