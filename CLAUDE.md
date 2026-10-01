@@ -25,6 +25,37 @@ lado de onde o arquivo original ficava — o `.IMG`/`.INF` binário do
 jogo só é montado no fim, por `compile_images.py`/`compile_inf.py`. Ver
 [docs/pipeline-imagens.md](docs/pipeline-imagens.md#legivel-vs-formato-do-jogo).
 
+## Publicação
+
+O projeto está publicado publicamente no GitHub, sob a conta pessoal
+do tradutor (**Ghost Tocaia** — separada de outras contas/organizações
+que o usuário também usa): https://github.com/Ghost-Tocaia/arena-traducao-ptbr.
+A identidade git (`user.name`/`user.email`) foi configurada **só
+localmente neste repositório** (sem `--global`), propositalmente
+diferente do e-mail pessoal do usuário — não assuma que a config
+global da máquina é a identidade certa pra commits aqui.
+
+`Originais/`, `varredura_imagens/` e `_dosbox_test/` nunca são
+commitados (ver `.gitignore`) — são ativos do jogo original (Bethesda/
+ZeniMax) ou cópias de trabalho/teste da instalação real, não trabalho
+do projeto. Continuam no disco local, só fora do controle de versão.
+
+`nexus_release/` (gitignorado, só local, não existe num clone novo)
+guarda os pacotes `.zip` prontos pra upload manual no Nexus Mods (um
+por plataforma — DOSBox e OpenTESArena — cada um já com o
+`ACD.EXE`/`TEMPLATE.DAT` certo embutido, gerados a partir de `build/`)
+e o texto da página do mod pronto pra copiar/colar
+(`nexus-texto.html` — artifact publicado com botão de cópia
+*formatada*, não Markdown nem tags HTML cruas, pro editor visual do
+Nexus; `texto-pagina-nexus.txt` é a mesma cópia em texto puro).
+
+`README.md` é o arquivo voltado ao público não técnico (como instalar,
+estimativa de % traduzido por versão) — **mantenha os números de lá
+(e os de `nexus_release/`) em sync** com qualquer novo arquivo
+traduzido/revertido. Ver a entrada de 01/10/2026 no "Status conhecido"
+mais abaixo pra como esse percentual deve ser calculado (nunca por
+contagem de arquivos/impressão qualitativa).
+
 ## Comece por aqui
 
 - **[docs/traducao-estilo.md](docs/traducao-estilo.md)** — regras de
@@ -485,3 +516,86 @@ também rodada nos 1402 arquivos `.MIF`/`.CFA`/`.SET`/`.DFA`/`.VOC`/
 cabeçalho padrão dos `.VOC`. Ver
 [docs/inventario-arquivos.md](docs/inventario-arquivos.md) seções 1.1,
 2.1 e 3.2 para o detalhamento completo.
+
+**Bug grave de pipeline encontrado e corrigido: "várias IMG sem
+tradução no DosBox" (30/09/2026)**: depois de instalar a build no jogo
+real (Steam/DOSBox) e também testar no OpenTESArena, várias telas que
+já tinham sido traduzidas (QUOTE.IMG, SCROLL01/02.IMG, NEWMENU.IMG,
+telas de inventário/armadura) apareceram em inglês nos dois motores.
+Descartadas por evidência direta, nessa ordem: LZSS incompatível com o
+motor real (refutado - POPUP3/4.IMG, sem compressão nenhuma, também
+apareceram em inglês); Steam sobrescrevendo arquivo (refutado -
+arquivo no disco continuava traduzido); pasta de instalação errada
+(refutado - `libraryfolders.vdf`/`appmanifest_1812290.acf` confirmam
+instalação única); cache de montagem de CD-ROM do DOSBox (refutado -
+reiniciar o DOSBox via Steam não mudou nada). **A pista decisiva**: o
+OpenTESArena (implementação própria, do zero, de BSA/LZSS) mostrava o
+mesmo bug que o DOSBox real - isso descarta qualquer causa específica
+de motor e aponta pra um problema no `GLOBAL.BSA` **gerado**, não em
+como ele é lido.
+
+Causa raiz, achada comparando timestamp de arquivo: `split_bsa.py` foi
+rodado duas vezes nesta sessão (pra adicionar `ACCPREJT.IMG`, depois
+`CHARSPEL.IMG`/`SCROLL03.IMG`) e, como documentado na regra 6 acima,
+isso reseta **todos** os arquivos-alvo pro pristino em
+`GLOBAL_parts/`, não só os dois novos. Só os scripts `build_bsa_*.py`
+novos foram re-rodados depois, nunca o conjunto histórico inteiro.
+`compile_images.py` (que varre o manifesto inteiro, lendo de
+`legivel/` que nunca é resetado por `split_bsa.py`) rodou por acaso
+durante o trabalho do `TAMRIEL.MNU` e consertou os `.IMG` de
+raspão - mas `compile_inf.py` nunca rodou de novo, deixando os 57
+`.INF` revertidos. E como `merge_bsa.py` tinha rodado **antes** desse
+conserto acidental dos `.IMG`, nem esses estavam refletidos no
+`GLOBAL.BSA` entregue. **Corrigido** rodando `compile_inf.py` (refaz
+todos os 55 `.INF` do BSA + 5 soltos a partir de `legivel/`, todos
+round-trip-verificados), confirmando por varredura binária que
+`GLOBAL_parts/` tinha exatamente 108 entradas diferentes do pristino
+(53 `.IMG` + 55 `.INF`, mais 2 `.INF` legitimamente idênticos ao
+original - `CRYPT2.INF`/`CRYSTAL2.INF` não têm prosa real mesmo),
+re-rodando `merge_bsa.py` + `build.py`, e reinstalando no Steam. **A
+regra 6 já cobria a causa em abstrato; esta é a ocorrência real que a
+originou** - releia a regra 6 sempre que rodar `split_bsa.py` fora de
+um `build_all.py` do zero.
+
+**Primeira instalação na cópia real do jogo (Steam/DOSBox) (30/09/2026)**:
+`CHARSPEL.DAT`, `GLOBAL.BSA` e `TAMRIEL.MNU` copiados pra
+`.../Steam/steamapps/common/The Elder Scrolls Arena/ARENA/`, com
+`.original` criado antes da primeira sobrescrita de cada arquivo nunca
+tocado. Só feito a pedido explícito do usuário - nunca escreva na
+instalação real sem isso ser pedido na própria conversa.
+
+**README.md criado e projeto publicado no GitHub, material do Nexus
+Mods preparado (30/09/2026)**: ver a seção "Publicação" no topo deste
+arquivo pro estado atual (link do repo, identidade git local, o que
+fica de fora via `.gitignore`, o que tem em `nexus_release/`). Registro
+à parte porque não é trabalho de tradução/engenharia reversa como o
+resto deste arquivo, mas muda como qualquer sessão futura deve agir
+(não recriar o repo, não recommitar `Originais/`/`varredura_imagens/`/
+`_dosbox_test/`, saber que `nexus_release/` é local-only).
+
+**Correção crítica do percentual de tradução da versão DOSBox: 90-93%
+estava errado, o real é ~55% (01/10/2026)**: a estimativa original
+(dada junto com o README) foi um chute qualitativo - "só falta um
+arquivo" - sem medir quanto esse arquivo realmente pesa. O usuário
+questionou certo: `TEMPLATE.DAT` (banco de falas de cidadãos, o único
+arquivo não traduzido na versão DOSBox por causa do gotcha de edição
+documentado em
+[docs/pipeline-acd-exe.md](docs/pipeline-acd-exe.md)) tem **396 KB**,
+contra **877 KB de texto no jogo inteiro** somando todos os arquivos
+em formato texto puro (todos os `.INF` dentro e fora do `GLOBAL.BSA` +
+`TEMPLATE.DAT` + o resto dos `.DAT`/`.TXT`/`.MNU` soltos tipo
+`ARTFACT1/2.DAT`, `EQUIP.DAT`, `TAVERN.DAT` etc). Ou seja, sozinho ele
+é **~45% de todo o texto do jogo** - a estimativa certa pra versão
+DOSBox é **~55%**, não 90-93%. A versão OpenTESArena continua ~98-99%
+(lá o `TEMPLATE.DAT` está traduzido).
+
+**Lição pra qualquer estimativa de % futura**: nunca estime "% do jogo
+traduzido" por contagem de arquivos ou impressão qualitativa ("é só um
+arquivo que falta"). Meça o tamanho real em bytes de todo arquivo em
+formato texto puro (os `.DAT`/`.TXT`/`.MNU`/`.INF` com prosa -
+**não** `.IMG`, que é dado de pixel e não é comparável por tamanho de
+arquivo dessa forma) e calcule a proporção de fato. `README.md` e
+`nexus_release/texto-pagina-nexus.txt`/`nexus-texto.html` foram
+corrigidos nessa mesma rodada - mantenha os três em sync se o quadro
+mudar de novo (ex.: se algum dia o gotcha do `TEMPLATE.DAT` for
+contornado e ele puder ser traduzido também na versão DOSBox).
