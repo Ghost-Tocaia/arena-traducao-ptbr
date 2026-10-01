@@ -119,7 +119,7 @@ depois, por `compile_images.py`/`compile_inf.py`:
 | Arquivo | Papel |
 |---|---|
 | `split_bsa.py` | Extrai do `GLOBAL.BSA` original os arquivos-alvo, pristinos, para dentro de `GLOBAL_parts/` (cache interno/transitório — nunca é o "arquivo de trabalho") |
-| `varredura_img_bruta.py` | Varredura bruta (paleta genérica, sem curadoria por arquivo) de todo `.IMG` do `GLOBAL.BSA` que ainda não está em `img_manifest.IMAGE_MANIFEST`, decodificado pra PNG só pra revisão visual humana em busca de texto escondido — é como as 26 telas da seção 4 do inventário foram achadas, e é a ferramenta pra continuar varrendo os 898 `.IMG` ainda não abertos |
+| `varredura_img_bruta.py` | Varredura bruta (paleta genérica, sem curadoria por arquivo) de todo `.IMG` do `GLOBAL.BSA` que ainda não está em `img_manifest.IMAGE_MANIFEST`, decodificado pra PNG só pra revisão visual humana em busca de texto escondido — é como as telas da seção 4 do inventário foram achadas. **Uso concluído em 30/09/2026**: os 946 `.IMG` do `GLOBAL.BSA` estão 100% analisados (ver [inventario-arquivos.md](inventario-arquivos.md#32-dentro-do-globalbsa)) — não sobrou nenhum pra varrer; o script fica no repositório como ferramenta histórica, só volta a ser útil se um dia aparecer um `.IMG` novo fora do manifesto atual |
 | `blank_bsa_intro.py` | Gera as versões "vazias" (só apagadas) dos painéis INTRO/HISTORY, como PNG, em `GLOBAL_parts/legivel/empty/` |
 | `build_bsa_intro.py` | Desenha a tradução dos 9 painéis INTRO*.IMG por cima de `legivel/empty/`, salva PNG em `GLOBAL_parts/legivel/` |
 | `build_bsa_scrolls.py` | Traduz SCROLL01.IMG/SCROLL02.IMG (dentro do BSA) |

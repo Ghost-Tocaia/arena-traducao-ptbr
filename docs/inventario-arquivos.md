@@ -16,9 +16,11 @@ pasta de instalação quanto os que vivem empacotados dentro de
    visualmente (via `varredura_imagens/`, ver
    [pipeline-imagens.md](pipeline-imagens.md#varredura-bruta-de-imagens-não-analisadas)),
    confirmado que têm texto de jogador, mas a tradução ainda não foi
-   feita. Esta lista cresce conforme mais arquivos de `varredura_imagens/`
-   são revisados — bem menor que a categoria 3 por enquanto, já que a
-   varredura em massa ainda não foi 100% revisada manualmente.
+   feita. **Fica vazia permanentemente desde 30/09/2026** — os 908 PNGs
+   de `varredura_imagens/` já foram revisados manualmente na íntegra
+   (ver seção 4 abaixo); um novo item aqui só apareceria com a
+   descoberta de um arquivo de jogo inteiramente novo, fora do que já
+   foi varrido.
 
 A pasta de referência para "todos os arquivos soltos" é a instalação real
 do jogo (Steam), não `Originais/` deste repositório — `Originais/` guarda
