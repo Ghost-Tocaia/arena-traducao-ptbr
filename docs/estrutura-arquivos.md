@@ -32,6 +32,10 @@ preview_imagens/     PNGs de pré-visualização (2x/4x, nearest-neighbor)
 build/               saída final do pipeline (scripts/build.py e
                      scripts/build_all.py), pronta para copiar para a
                      pasta de instalação do jogo
+nexus_release/       pacotes .zip prontos pra upload manual no Nexus
+                     Mods (build_nexus_release.py) + texto da página do
+                     mod mantido à mão — gitignorado, não existe num
+                     clone novo, ver seção "Publicação" do CLAUDE.md
 scripts/             todo o código Python do projeto (ver abaixo)
 docs/                esta documentação
 ```
